@@ -1,0 +1,95 @@
+Name,ID,Father Name,Father ID,Mother Name,Mother ID
+Benjamin Hatmaker,A001,Benjamin Joy,A057,Susan Morehouse,A056
+Selinda Ripley,A002,,,,
+Sarah Castleton (ENG),A003,Ebenezer Bigelow,A040,,
+Susannah Lothrop,A004,,,,
+Marion Kimball,A005,Theodosia Oakes,A083,William Kimball,A094
+Sarah Peck,A006,,,,
+Elvira Mehurin,A007,Joshua Paul,A071,Anner Rood,A044
+Susannah Lincoln,A008,,,,
+Hezekiah Rich,A009,,,,
+Joseph Kimball,A010,David Chapin,A076,Zerviah Farnsworth,A081
+David Paul,A011,Lecta Conger,A080,Joshua Paul,A071
+Dr. B Weaver,A012,,,,
+Franklin Hardwick,A013,Charles Hardwick,A017,Mary Trask,A085
+Mary Verges (RUS?),A014,,,,
+Joseph Farnsworth,A015,,,,
+Henry Rich,A016,Zoeth Rich,A087,Phebe Brown,A074
+Charles Hardwick,A017,Mary Dexter,A018,Charles Hardwick,A017
+Mary Dexter,A018,,,,
+Daniel Chapin,A019,,,,
+Carl Danner,A020,John Hatmaker,A021,Abigail Robinson,A024
+John Hatmaker,A021,Henricus Huthmaker,A023,Barbara Fritcher,A077
+Relief Pollard,A022,James Ayer,A050,Mary Brickett,A036
+Henricus Huthmaker,A023,,,,
+Abigail Robinson,A024,Henricus Huthmaker,A023,Barbara Fritcher,A077
+Harriet Paul,A025,Susan Morehouse,A056,David Paul,A011
+Martha Shepard,A026,,,,
+Martha Jess,A027,,,,
+Father,A028,,,,
+Hannah Osborn,A029,,,,
+Rebecca Gould,A030,,,,
+David Bigelow,A031,Ebenezer Bigelow,A040,Nancy Rand,A049
+Albert Danner (GER),A032,,,,
+Richard Ayer,A033,Cynthia Atwood,A088,James Ayer,A050
+Haugh Oakes,A034,,,,
+Carrie Hardwick,A035,Margaret Payzant,A053,Charles Hardwick,A017
+Mary Brickett,A036,,,,
+John Mehurin,A037,,,,
+William Stoddard,A038,Hannah Osborn,A029,James Stoddard,A073
+Benedict Robinson,A039,,,,
+Ebenezer Bigelow,A040,,,,
+Mary Ayer,A041,Phebe Brown,A074,Richard Ayer,A033
+Ellen Chapin,A042,Eliza Dorr,A090,David Chapin,A076
+Elizabeth Vogt,A043,,,,
+Anner Rood,A044,,,,
+Dr. E. Kimball,A045,,,,
+Frederick Long (ENG),A046,Anna Mehurin,A048,,
+Joanna Arms,A047,,,,
+Anna Mehurin,A048,,,,
+Nancy Rand,A049,,,,
+James Ayer,A050,,,,
+David Hatmaker,A051,John Hatmaker,A021,Abigail Robinson,A024
+Henry Kimball,A052,William Kimball,A094,Eliza Dorr,A090
+Margaret Payzant,A053,Thomas Davidson,A079,Rebecca Gould,A030
+Douglas Danner,A054,Sarah Long,A064,,
+Mary Bigelow,A055,,,,
+Susan Morehouse,A056,David Joy 3,A078,Hannah Partridge,A067
+Benjamin Joy,A057,Susannah Brown,A091,David Joy 3,A078
+Isaac Bigelow,A058,David Bigelow,A031,Martha Weaver,A060
+Pierson Morehouse,A059,,,,
+Martha Weaver,A060,Ebenezer Bigelow,A040,Nancy Rand,A049
+Deacon I Pollard,A061,,,,
+William Davison,A062,Martha Jess,A027,Thomas Davidson,A079
+Lucy Smith,A063,,,,
+Sarah Long,A064,Elvira Mehurin,A007,Frederick Long (ENG),A046
+Edwin Bigelow,A065,William Davison,A062,Margaret Payzant,A053
+Theodore Brown,A066,,,,
+Hannah Partridge,A067,,,,
+Cornelia Joy,A068,Abigail Robinson,A024,Benjamin Joy,A057
+Reuel Paul,A069,David Paul,A011,Elvira Mehurin,A007
+Benjamin Dorr,A070,,,,
+Joshua Paul,A071,,,,
+Cornelia Hatmaker,A072,David Hatmaker,A051,John Hatmaker,A021
+James Stoddard,A073,,,,
+Phebe Brown,A074,Hezekiah Rich,A009,Sarah Smith,A086
+Emeline Davidson,A075,Martha Weaver,A060,William Davison,A062
+David Chapin,A076,Elizabeth Cotton,A093,Daniel Chapin,A019
+Barbara Fritcher,A077,,,,
+David Joy 3,A078,,,,
+Thomas Davidson,A079,,,,
+Lecta Conger,A080,,,,
+Zerviah Farnsworth,A081,Daniel Chapin,A019,Joanna Arms,A047
+Mary Rich,A082,Zerviah Farnsworth,A081,Zoeth Rich,A087
+Theodosia Oakes,A083,James Stoddard,A073,Susannah Lincoln,A008
+William Payzant,A084,,,,
+Mary Trask,A085,Charles Hardwick,A017,Sarah Peck,A006
+Sarah Smith,A086,,,,
+Zoeth Rich,A087,Martha Shepard,A026,Hezekiah Rich,A009
+Cynthia Atwood,A088,,,,
+Theodosia Stoddard,A089,Mary Trask,A085,William Stoddard,A038
+Eliza Dorr,A090,Dr. E. Kimball,A045,Selinda Ripley,A002
+Susannah Brown,A091,,,,
+Peter Vogt (RUS?),A092,,,,
+Elizabeth Cotton,A093,,,,
+William Kimball,A094,Susannah Lothrop,A004,Dr. E. Kimball,A045
