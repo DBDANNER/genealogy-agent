@@ -1,0 +1,194 @@
+# Ancestry Project File Index — v1
+
+## Purpose
+This file is a quick index of the currently important operational files in the Ancestry Project.
+
+A new chat should use this file when it needs to:
+- locate the current script for a subsystem
+- inspect a known-working code file
+- confirm a contract against source code
+- find the current builder scripts and template
+- understand which repo/file is likely relevant to the current task
+
+This file is not a full architecture manual. It is a fast lookup aid.
+
+---
+
+## Repo roles
+
+### `ancestry_repo`
+Operational working repo on the laptop and mirrored to GitHub.
+Contains scripts, captures, builder inputs/outputs, templates, and extension ZIPs.
+
+### `genealogy-agent`
+Planned constitutional/reference repo.
+Intended to hold startup files, manuals, contracts, playbooks, and indexes like this one.
+
+---
+
+## Confirmed active files
+
+### Harvester / Navigator
+**Server script**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\server\navfix_v0_1_4.py`
+
+Purpose:
+Current known-working/active Harvester-Navigator server candidate for queue hygiene and mini-tree harvesting.
+
+When to read:
+- Navigator reseed questions
+- queue behavior
+- immigrant-stop behavior
+- birth-year filter behavior
+- harvesting/navigation bugs
+
+**Extension ZIP**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\extension\familysearch_dom_capture_tinyloop_v0_1_11.zip`
+
+Purpose:
+Current known-working/active Harvester-Navigator extension package.
+
+When to read:
+- extension UI/button behavior
+- capture flow
+- browser-side harvesting logic
+- extension/server integration questions
+
+---
+
+### Shuttle Message System
+**Server script**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\shuttle_server_v24_github_mirror_poc_fix1.py`
+
+Purpose:
+Current known-working Shuttle server script.
+
+Important known fact:
+This script supports the GitHub mirror action as:
+- `target: "cmd"`
+- `action: "github_mirror"`
+
+When to read:
+- Shuttle message contract questions
+- GitHub mirror questions
+- supported Shuttle target/action families
+- clipboard/file return behavior
+- debugging Shuttle command failures
+
+**Extension ZIP**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\extension\shuttle_workflow_v49.zip`
+
+Purpose:
+Current known-working Shuttle extension package.
+
+When to read:
+- browser-side Shuttle message detection/handling
+- numbering/injection behavior
+- extension/server interaction questions
+
+---
+
+### Slotmap / Tree Builder
+**Stage-1 slotmap builder**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\builder\stage1_slotmap_v5.py`
+
+Purpose:
+Builds the ancestor slotmap from repo-local inputs.
+
+Known practical contract:
+Run from repo root with:
+- `--root`
+- `--depth`
+
+The script auto-reads:
+- `people/`
+- `links/links_all.jsonl`
+- auto-detected stoplist/overlay files if present
+
+When to read:
+- slotmap contract questions
+- parent assignment behavior
+- stoplist behavior
+- stage-1 output structure
+
+**Stage-2 landscape renderer**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\builder\stage2_render_landscape_by_slabels_v4_1.py`
+
+Purpose:
+Renders a stage-1 slotmap CSV into a human-readable landscape workbook using the template.
+
+Known practical contract:
+Run from repo root with:
+- `--root`
+- `--slotmap`
+- `--template`
+
+When to read:
+- tree rendering questions
+- workbook output structure
+- stage-2 contract questions
+
+**Template workbook**
+`C:\Users\david\OneDrive\Documents\ancestry_repo\tree_spreadsheets\landscape_S_template.xlsx`
+
+Purpose:
+Landscape spreadsheet template used by stage 2.
+
+When to read/use:
+- tree rendering runs
+- template-layout questions
+- slot label placement questions
+
+---
+
+## Quick routing guide
+
+### If the user wants to harvest or navigate FamilySearch ancestors
+Start with:
+1. `navfix_v0_1_4.py`
+2. `familysearch_dom_capture_tinyloop_v0_1_11.zip`
+
+### If the user wants to mirror the laptop repo to GitHub using Shuttle
+Start with:
+1. Shuttle manual in the constitutional repo
+2. `shuttle_server_v24_github_mirror_poc_fix1.py`
+3. `shuttle_workflow_v49.zip`
+
+### If the user wants to build or render a mini-tree
+Start with:
+1. `stage1_slotmap_v5.py`
+2. `stage2_render_landscape_by_slabels_v4_1.py`
+3. `landscape_S_template.xlsx`
+
+---
+
+## Known-good operational notes
+
+### GitHub mirror via Shuttle
+Known-good Shuttle contract as of April 2026:
+```json
+_SHUTTLE_MESSAGE_00002_
+{"target":"cmd","action":"github_mirror","return_mode":"clipboard","clipboard_format":"json_pretty"}
+```
+
+Important pitfall:
+GitHub mirror is **not** a `repo` action. It is a `cmd` action.
+
+### Stage-1 slotmap build pattern
+Known-good pattern:
+```cmd
+cd /d C:\Users\david\OneDrive\Documents\ancestry_repo && python builder\stage1_slotmap_v5.py --root <PID> --depth 6
+```
+
+### Stage-2 render pattern
+Known-good pattern:
+```cmd
+cd /d C:\Users\david\OneDrive\Documents\ancestry_repo && python builder\stage2_render_landscape_by_slabels_v4_1.py --root <PID> --slotmap <slotmap_csv_path> --template C:\Users\david\OneDrive\Documents\ancestry_repo\tree_spreadsheets\landscape_S_template.xlsx
+```
+
+---
+
+## Maintenance rule
+If a file version changes and becomes the new known-working version, this index should be updated promptly.
+
+If a future chat gets lost looking for a script that should have been obvious, that is evidence that this file should be improved.
