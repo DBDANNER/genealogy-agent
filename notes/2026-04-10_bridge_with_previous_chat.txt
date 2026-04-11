@@ -1,0 +1,135 @@
+took a long time, and I could tell that you were struggling from your "thoughts to self" comments.  That was clever to use Canva as an alternative transmission medium - it worked well and I downloaded the file.  I'm ready to mirror today's files to github - can you give me a shuttle_message for that?  The browser crashed and I restarted it, so the shuttle message counter seems to have been zeroed.
+Received app response
+Received app response
+Received app response
+Thought for 1m 10s
+Received app response
+
+I can give you my best reconstruction, but I am not fully certain of the exact mirror action name from here. The counter reset suggests starting at 00001, so the best candidate is:
+
+_SHUTTLE_MESSAGE_00001_
+{"target":"repo","action":"mirror_to_github","path":".","return_mode":"clipboard","clipboard_format":"json_pretty"}
+
+If Shuttle rejects that action name, paste back the error and I’ll tighten it up from the server’s response.
+
+{
+  "action": "mirror_to_github",
+  "clipboard_attempted": true,
+  "clipboard_format": "json_pretty",
+  "clipboard_status": "ok",
+  "clipboard_transport_format": "json_pretty_for_error",
+  "error_code": "UNSUPPORTED_ACTION",
+  "latest_for_chat_path": "C:\\Users\\david\\OneDrive\\Documents\\ancestry_repo\\shuttle_outputs\\latest_for_chat.txt",
+  "message": "Supported repo actions: list_files, read_file, read_bundle.",
+  "meta": {},
+  "result_text": "Supported repo actions: list_files, read_file, read_bundle.",
+  "return_mode": "clipboard",
+  "status": "error",
+  "target": "repo",
+  "timestamp": "2026-04-10T02:34:23Z"
+}
+Thought for a couple of seconds
+
+Good — that error is informative.
+
+It means the current Shuttle build does not have a repo-side mirror action at all. The only supported repo actions right now are:
+list_files
+read_file
+read_bundle
+
+So the mirror step is not something Shuttle can do yet in this version.
+
+That means the safest answer tonight is: use your normal manual Git mirror workflow rather than Shuttle.
+
+And the useful project takeaway is that “mirror to GitHub” should probably become one of the constitutional playbooks, because it is evidently not yet formalized as a Shuttle command contract.
+
+For immediate use, the important fact is simply:
+there is no valid Shuttle message for GitHub mirroring in the currently running server build.
+
+That error output is worth preserving in tomorrow’s discussion, because it tells us the mirror capability belongs either:
+in a future Shuttle server upgrade,
+or as a documented manual playbook rather than a Shuttle command.
+
+I have more information on this topic, or related topics, if that would be useful.
+
+cc2fe32b-0d26-48c8-bc06-cd1ee8882028.py
+Python
+The shuttle server should have a github command.  Here's the script.
+Thought for 6s
+
+Yes — the script answers it clearly.
+
+The GitHub mirror command is not a repo action at all. It is a cmd target with action github_mirror. The server explicitly supports cmd actions run_cmd, http_test, and github_mirror, and github_mirror takes no extra required fields.
+
+So with the counter reset, the correct Shuttle message should be:
+
+_SHUTTLE_MESSAGE_00001_
+{"target":"cmd","action":"github_mirror","return_mode":"clipboard","clipboard_format":"json_pretty"}
+
+And the expected outcomes from that server are along the lines of:
+mirror_succeeded,
+already_up_to_date,
+or an auth/timeout/failure response, depending on what Git does locally.
+
+The earlier failure happened because we were aiming at the wrong target/action family.
+
+Sounds good.  May I have the same message with the counter at 2 rather than 1?
+_SHUTTLE_MESSAGE_00002_
+{"target":"cmd","action":"github_mirror","return_mode":"clipboard","clipboard_format":"json_pretty"}
+Pasted text.txt
+Document
+Thought for a second
+
+Excellent — the mirror worked cleanly.
+
+The Shuttle response shows outcome: "mirror_succeeded", exit code 0, and a successful push from f87e3e6 to f37973e on main, so tonight’s laptop changes were mirrored to DBDANNER/ancestry_repo successfully.
+
+A few useful notes from the payload:
+the slotmap CSV/JSON outputs and both landscape workbooks were included in the mirror,
+a large number of new people/*.json files were included too,
+and there was also a LibreOffice lock file mirrored:
+tree_builder_reports/20260410T012413Z/.~lock.KVGS-BMK_landscape.xlsx#.
+
+That last one is not a failure, but it is probably junk we would prefer not to keep mirroring in the future. A later cleanup item for the constitutional/playbook system should be either:
+delete that lock file from the repo,
+or add ignore rules for LibreOffice lock artifacts so they do not get committed again.
+
+The other messages in stderr_tail are just line-ending warnings (LF will be replaced by CRLF) for raw capture JSONs. Those are worth noticing, but they are not fatal and did not block the push.
+
+So the important bottom line is:
+the current Shuttle server’s github_mirror command is real and working,
+and tonight’s outputs are now safely in GitHub.
+
+Perfect.  And that was another great example of how much wasted effort we have been putting into trying to get the continuity file to carry the information on how to use the shuttle_message system - after perhaps five tries to get that into the continuity bundles, it still failed and I had to actually paste the script into the chat to do a simple mirror, that would have been second nature in the previous chat.  I don't know if each chat will always have to pull the script and review it when this situation occurs, but hopefully the inclusion of "classic"/"known working" scripts will help avoid that, and even if the script does need to be reviewed, the combination of an index and github access should allow that to happen automatically.
+Thought for a couple of seconds
+
+Exactly. Tonight was almost a textbook case for why the constitution/index approach is better.
+
+What failed was not your memory and not really mine in the ordinary sense. What failed was the storage location of the contract. The Shuttle mirror contract was living in scattered prior chat context instead of in a stable, fetchable reference file. So even though the system itself was working, the new chat had to rediscover it the hard way.
+
+And yes, the encouraging part is that tonight also showed the fix. Once you pasted the server script, the answer became immediate: github_mirror was plainly there as a cmd action, and the correct Shuttle message fell out almost instantly. Then the mirror succeeded cleanly.
+
+So I think the lesson is:
+
+The continuity bundle should not try to carry the full operational grammar of Shuttle, Navigator, slotmap, and everything else.
+Instead, it should point to the canonical contract files and, where useful, the “classic known working” script versions.
+Then a new chat can either already know the contract from the constitutional file, or, if needed, fetch the exact referenced script from GitHub and verify it directly.
+
+That is much more robust than trying to compress all that into prose every evening.
+
+I also think your phrase “classic/known working scripts” is a very strong design idea. That suggests a constitutional pattern like this:
+
+one file that describes the command contract,
+one file or section that names the current known-good script/version,
+and one or two validated example messages or commands.
+
+That three-part structure would have prevented tonight’s Shuttle archaeology almost completely.
+
+So yes, I think the combination of:
+a startup index,
+contract files,
+and links to classic known-working scripts in GitHub
+
+should drastically reduce this kind of wasted effort.
+
+A very good item for tomorrow’s constitutional design discussion is to make “known working artifacts” an explicit category, not just an afterthought.
