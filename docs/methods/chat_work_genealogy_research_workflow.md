@@ -3,7 +3,7 @@ title: Chat + Work Genealogy Research Workflow
 status: ACTIVE METHOD
 last_reviewed: 2026-09-09
 project: Ancestry
-purpose: Reusable operating guide for combining Chat judgment and Work execution in difficult genealogy research.
+purpose: Reusable operating guide for combining Chat judgment, Work execution, and user intervention in difficult online genealogy research.
 canonical_paths:
   - ancestry_repo/docs/methods/chat_work_genealogy_research_workflow.md
   - genealogy-agent/docs/methods/chat_work_genealogy_research_workflow.md
@@ -11,233 +11,173 @@ canonical_paths:
 
 # Chat + Work Genealogy Research Workflow
 
-## Purpose
+## 1. Division of labor
 
-This guide records the operating method developed during the Sarah Conger / “Sarah Jones” investigation for combining ordinary Chat with ChatGPT Work on difficult genealogy problems.
+The preferred operating model is:
 
-The central division of labor is:
+- **Chat = principal investigator.** Select the target, analyze the landscape, design hypotheses, construct the Work prompt, set scope/evidence/stopping rules, and peer-review the result.
+- **Work = research associate.** Perform high-volume browsing, authenticated online research, repetitive record checking, candidate reconstruction, FAN analysis, cross-source comparison, and adaptive multi-step execution.
+- **User = handoff and intervention layer.** Manually transfer prompts and results, handle CAPTCHA/login/2FA when needed, monitor long runs, and retain final control over project scope and tree changes.
 
-- **Chat = principal investigator:** target selection, landscape analysis, hypothesis design, prompt construction, evidence standards, peer review, and decisions about the authoritative tree.
-- **Work = research associate:** high-volume browsing, authenticated online research, repetitive record checking, cross-source comparison, adaptive multi-step execution, and structured reporting.
-- **User = handoff and intervention layer:** manually transfers prompts/results between Chat and Work, handles CAPTCHA/sign-in/2FA steps, monitors long runs, and retains final control over project scope and archival decisions.
+The manual **Chat -> user -> Work -> user -> Chat** transfer is intentional. It creates a clean adjudication boundary between research execution and acceptance of genealogical conclusions.
 
-The manual Chat <-> Work transfer is intentional. It creates a useful adjudication boundary between research execution and acceptance of genealogical conclusions.
+Do not normally let the same Work run both research a difficult relationship and install it into the authoritative tree without independent Chat review.
 
-## 1. When to use Chat and when to use Work
+## 2. When to use each mode
 
-### Prefer ordinary Chat for
+### Prefer Chat for
 
-- deciding which ancestor is worth researching;
-- scanning the shape of the available genealogy and identifying high-payoff gaps;
-- distinguishing genuine missing parentage from capture artifacts or intentional stop conditions;
+- choosing which broken branch has the highest payoff;
+- distinguishing genuine parentage gaps from capture artifacts, generation cutoffs, stoplists, or placeholders;
+- deciding what inherited facts are actually uncertain;
 - developing historical hypotheses;
-- choosing evidence standards and project scope;
-- designing an adaptive Work prompt;
-- reviewing Work’s conclusions;
-- catching identity conflations, chronology errors, copied-source circularity, and unsupported inferences;
-- deciding whether to update the authoritative tree, preserve a graded hypothesis, or close the branch.
+- defining evidence standards and online-only scope;
+- designing adaptive Work phases;
+- reviewing chronology, identity, copied-source circularity, negative evidence, and confidence language;
+- deciding whether to update the tree, retain a working hypothesis, or close the case.
 
 ### Prefer Work for
 
-- long, repetitive, multi-site online investigation;
-- systematic searches across church, probate, deed, tax, court, military, newspaper, cemetery, and digitized-book sources;
-- authenticated FamilySearch research;
+- long, repetitive multi-site investigation;
+- systematic church/probate/deed/tax/court/military/newspaper/cemetery/book searches;
+- authenticated FamilySearch research and Full-Text Search;
 - reconstructing candidate families and FAN networks;
-- checking many variants, dates, jurisdictions, or record sets;
-- following evidence-driven branches over many steps;
-- producing a source-by-source research report.
+- checking name/spelling/date/jurisdiction variants;
+- following promising evidence through multiple steps;
+- producing a source-by-source report.
 
-### Avoid delegating the final genealogical judgment automatically
-
-For difficult identity or parentage questions, do **not** let the same Work run both research a relationship and directly install it into the authoritative tree without independent Chat review.
-
-The Sarah investigation showed why: Work performed an excellent broad investigation but conflated two Joel Jones identities. Chat peer review caught the problem before it propagated into the tree.
-
-## 2. Standard end-to-end loop
+## 3. Standard end-to-end loop
 
 ### Step 1 — Chat scans the landscape
 
-Before launching Work, determine the shape of the problem.
+Before launching Work:
 
-For a set of tree gaps, Chat should:
-
-- identify genuine broken branches;
-- distinguish missing data from generation cutoffs, incomplete capture, stoplists, or known placeholders;
-- rank candidates by recency, tractability, documentary environment, and potential ancestral payoff;
-- select one target rather than asking Work to wander through the entire tree without priorities.
+1. identify genuine broken branches;
+2. rank by recency, tractability, documentary environment, and ancestral payoff;
+3. select one target;
+4. identify facts that must remain hypotheses.
 
 ### Step 2 — Chat builds a self-contained research packet
 
-Every substantial Work prompt should include enough context that Work does not need to reconstruct prior reasoning from scattered chats.
-
 Include:
 
+- target person and PIDs/identifiers;
 - verified starting facts;
-- source IDs/PIDs and known localities;
-- inherited assertions that must remain hypotheses;
-- already eliminated candidates;
-- prior searches and negative findings;
-- the research question;
-- scope limitations;
+- inherited assertions that must not be assumed;
+- already eliminated hypotheses;
+- prior searches and important negatives;
+- fundamental research question;
+- online-only scope;
 - ordered adaptive phases;
-- evidence standards;
-- hypothesis-pruning rules;
-- early-stop rules;
-- the required final deliverable.
+- evidence-grading scheme;
+- hypothesis-pruning rule;
+- early-stop rule;
+- authentication/CAPTCHA instructions;
+- allowance-recovery rule;
+- required final report and handoff capsule.
 
-### Step 3 — User manually transfers the prompt from Chat to Work
+### Step 3 — User transfers the prompt to Work
 
-Copy the final prompt into Work.
-
-The manual transfer is useful because it marks a deliberate transition from **planning/judgment** to **execution**. It also gives the user a chance to verify that the task being delegated is the task actually intended.
+Copy/paste the final Chat prompt into a new or appropriate Work conversation. This is the deliberate transition from planning to execution.
 
 ### Step 4 — Work executes adaptively
 
-Work should not treat a long prompt as a flat checklist.
+Work should not treat the prompt as a flat checklist. It should:
 
-A good prompt instructs it to:
-
-- work through phases in priority order;
+- pursue phases in priority order;
 - let early evidence redirect later phases;
 - spend effort unevenly according to expected value;
-- abandon disproved candidate lines;
+- prune disproved candidates;
 - deepen promising lines;
-- stop early if decisive evidence makes later steps redundant.
+- stop low-value work when decisive evidence appears.
 
 ### Step 5 — Work leaves visible checkpoints
 
-For long runs, request short visible checkpoints after each major phase without stopping the continuing research run.
+For long runs, request a very short checkpoint after each major phase **without pausing the continuing run**.
 
 Recommended format:
 
 > **Phase C complete**  
-> Key result: [one or two sentences].  
-> Hypotheses changed: [briefly].  
-> Next phase: D.  
-> Human action needed: none / [specific action].
+> Key result: [1–2 sentences]  
+> Hypotheses changed: [brief]  
+> Next phase: D  
+> Human action needed: none / [specific action]
 
-These checkpoints make an otherwise opaque long Work run auditable at a glance.
+### Step 6 — User handles human-only barriers
 
-### Step 6 — User handles human-only access barriers
+When login, CAPTCHA, 2FA, or another human-verification step appears, Work should request the minimum necessary user intervention rather than abandoning the source. Credentials belong only in secure login interfaces, never ordinary chat.
 
-If Work encounters:
+### Step 7 — User monitors exceptions, not every search
 
-- FamilySearch login;
-- CAPTCHA / “prove you are human”;
-- two-factor authentication;
-- a secure sign-in step;
-- another explicitly human verification;
-
-Work should **pause and request human takeover**, not abandon the source.
-
-The user should enter credentials only through the secure authentication/browser interface, never in ordinary Work or Chat text.
-
-After verification, return control to Work and instruct it to continue from the latest checkpoint.
-
-### Step 7 — User monitors long runs periodically
-
-Cloud Work can continue after leaving the conversation or closing the device; the app does not need to remain in the foreground.
-
-For long genealogy runs, the user found it helpful to:
+For long genealogy runs the user has found it useful to:
 
 - enable all available notifications;
-- request phase checkpoints;
-- check progress approximately every two hours;
-- look specifically for CAPTCHA/sign-in requests, stalls, or compute-allowance exhaustion.
+- use phase checkpoints;
+- check progress roughly every two hours;
+- look for authentication blocks, stalls, or allowance exhaustion.
 
-This is not constant supervision. It is periodic exception handling.
+Cloud Work can continue after leaving the app or closing/turning off the device. The app need not remain in the foreground.
 
-### Step 8 — Handle allowance exhaustion with resumable checkpoints
+### Step 8 — Handle allowance exhaustion with a resumable checkpoint
 
-Long Work runs may exhaust a short-window compute allowance before the research is complete.
+Every substantial Work prompt should include:
 
-Every long prompt should contain a recovery rule such as:
+> If execution may stop because of an allowance or system limitation, first record the last completed phase, major findings, eliminated hypotheses, important source identifiers/URLs, and the exact next action. After allowance reset, resume from that checkpoint without repeating completed work.
 
-> If execution is about to stop because of an allowance or other system limitation, first record a resumable checkpoint containing the last completed phase, major discoveries, eliminated hypotheses, important source identifiers, and the exact next action. After the allowance resets, resume from that checkpoint without repeating completed work.
+After reset, reopen the same Work conversation and tell it to continue from the checkpoint.
 
-When the allowance resets:
+### Step 9 — Work returns a full report plus a Chat handoff capsule
 
-1. verify available usage in the usage dashboard;
-2. reopen the same Work conversation;
-3. instruct Work to continue from its checkpoint;
-4. avoid restarting the research from the beginning.
+The full report should contain:
 
-If one device/session appears stuck but another can operate Work, continue from the functioning device rather than interrupting the research unnecessarily.
+- conclusion;
+- evidence by proposition;
+- source citations/URLs;
+- candidate comparisons;
+- negative searches;
+- eliminated hypotheses;
+- confidence grading;
+- online-road assessment;
+- remaining restricted/offline leads.
 
-### Step 9 — Work produces both a full report and a handoff capsule
+Also request a **300–500 word Chat handoff capsule** containing the bottom line, strongest evidence, important negatives, eliminated hypotheses, remaining uncertainty, and recommended next action.
 
-The full report should contain the evidence, citations, negative searches, candidate comparisons, confidence grading, and stopping assessment.
+### Step 10 — User returns the result to Chat
 
-It is also useful to request a concise **Chat handoff capsule**, approximately 300-500 words, containing:
+Paste/upload the Work result into the ordinary Chat research conversation.
 
-- bottom-line conclusion;
-- strongest evidence;
-- important negative evidence;
-- hypotheses eliminated;
-- surviving hypotheses and confidence;
-- whether the online road is exhausted;
-- next highest-value step;
-- identity ambiguities or possible errors noticed by Work.
+### Step 11 — Chat peer-reviews the result
 
-For difficult cases, transfer the **full report** back to Chat as well. The handoff capsule accelerates orientation; it does not replace peer review.
+Check:
 
-### Step 10 — User manually transfers Work’s result back to Chat
-
-Paste or upload the Work result into the ordinary Chat research conversation.
-
-This is the second deliberate handoff boundary.
-
-### Step 11 — Chat peer-reviews Work
-
-Chat should review at least:
-
-- whether cited records actually support the claimed propositions;
-- whether same-name people have been conflated;
+- whether records really support the claimed propositions;
+- same-name identity conflation;
 - chronology and geography;
-- whether multiple online trees are merely copying one source;
-- negative evidence and whether the searched collection was complete enough for absence to matter;
-- whether confidence language is calibrated to the evidence;
-- whether a “best candidate” actually distinguishes itself from alternatives;
-- whether Work followed scope, pruning, and stopping rules.
+- whether multiple trees are copying one assertion;
+- whether negative evidence is valid for the coverage searched;
+- whether confidence is calibrated;
+- whether the strongest competitor was addressed;
+- whether Work obeyed pruning, early-stop, and scope rules.
 
-If necessary, Chat then writes a narrower second-pass Work prompt based on the first run’s discoveries.
+The Sarah Conger case demonstrated the value of this step when Chat caught a Joel Jones conflation. The Anna Mahurin case demonstrated that peer review can refine the strength of wording even when Work’s practical conclusion is correct.
 
 ### Step 12 — Decide the tree outcome
 
-After peer review, classify the case into one of three states:
+Classify the case as one of:
 
-1. **Established relationship** — sufficient evidence to update the authoritative tree.
-2. **Working / analytical hypothesis** — useful for scenario analysis but clearly labeled as unproved and kept separate from ordinary genealogical truth.
-3. **Online-exhausted unresolved case** — preserve the evidence and remaining offline leads, then move on.
+1. **Established relationship** — adequate evidence for authoritative-tree change.
+2. **Working / analytical hypothesis** — useful for scenario analysis but clearly labeled unproved.
+3. **Online-exhausted unresolved case** — preserve findings and future leads, then move on.
 
-Do not force every Work run to produce ancestors.
+### Step 13 — Save a durable case report
 
-### Step 13 — Save a durable case summary
+Store the canonical Markdown report under `docs/cases/` in both repositories, with a stable filename, status, review date, and reopening rule. Create a DOCX copy for local/physical backup when useful.
 
-For every substantial closed or paused case, preserve a compact project document containing:
+## 4. Core prompt controls
 
-- target person and identifiers;
-- status;
-- verified facts;
-- inherited/unsupported assertions;
-- leading candidates;
-- eliminated candidates;
-- evidence for and against;
-- online collections searched;
-- important negative findings;
-- specific restricted/offline leads;
-- last research date;
-- rule for reopening the case.
+### Fundamental-question rule
 
-This prevents future Chat/Work sessions from repeating completed research.
-
-## 3. Prompt architecture for difficult genealogy
-
-A robust Work prompt should contain the following control sections.
-
-### A. Fundamental question
-
-Phrase the question at the deepest uncertain level.
+Ask at the deepest uncertain level.
 
 Bad:
 
@@ -245,58 +185,41 @@ Bad:
 
 Better:
 
-> Determine who John Conger’s wife or wives were, who Electa Conger’s mother was, whether the inherited identity “Sarah Jones” is valid, and only then identify her natal family if evidence permits.
+> Determine who John Conger’s wife or wives were, who Electa Conger’s mother was, whether “Sarah Jones” is a valid inherited identity, and only then identify her natal family if evidence permits.
 
-### B. Starting facts versus inherited assertions
+### Starting-facts rule
 
 Separate:
 
-- contemporary/near-contemporary evidence;
+- contemporary/original evidence;
+- near-contemporary evidence;
 - strong derivative evidence;
 - inherited tree assertions;
 - working hypotheses.
 
-Do not allow exact unsourced dates to become accidental hard filters.
+Exact unsourced dates must not silently become hard search filters.
 
-### C. Ordered adaptive phases
+### Adaptive-execution rule
 
-Earlier phases should have high information value and be allowed to reshape later ones.
+> Do not distribute effort evenly across all phases. Let evidence from earlier phases determine which later avenues deserve deeper pursuit.
 
-Example:
+### Hypothesis-pruning rule
 
-1. validate target identity;
-2. reconstruct husband geographically;
-3. build FAN network;
-4. reconstruct candidate natal families;
-5. search deeds/probate/full text for bridge evidence;
-6. compare origin and destination migration cluster;
-7. extend ancestry only if the bridge is established.
+> If a candidate or hypothesis is decisively contradicted, record why, stop researching it merely for completeness, and redirect effort to the remaining viable hypotheses.
 
-### D. Hypothesis-pruning rule
+### Early-stop rule
 
-Include:
+> If direct evidence or a tightly convergent independent evidence set resolves the central identity/parentage question and makes remaining planned searches low-value, stop the research loop and report the finding.
 
-> If an early phase decisively disproves a hypothesis or candidate, record the elimination and stop researching that branch merely for completeness. Redirect effort to the remaining viable hypotheses.
+Do not early-stop for proximity, naming patterns, copied trees, or one weak derivative claim.
 
-### E. Early-stop rule
+### Online-only stopping rule
 
-Include:
+> This is an online-only hobby genealogy project. Pursue reasonable digitally accessible evidence aggressively. Do not make physical archive visits, private correspondence campaigns, telephone inquiries, or hired research part of the active plan. If remaining decisive evidence is restricted/offline, identify it precisely, summarize the current best conclusion, grade surviving hypotheses, and stop.
 
-> If a record or tightly convergent set of records directly establishes the identity, maiden surname, parentage, or equivalent decisive bridge, stop lower-value planned searches and report the finding immediately.
+## 5. Evidence grading
 
-Do **not** trigger early stopping for proximity alone, naming patterns, copied online trees, or one weak derivative claim.
-
-### F. Online-only stopping rule
-
-For this hobby project:
-
-> Pursue reasonable online and digitally accessible evidence aggressively. Do not make physical archive visits, private correspondence campaigns, telephone inquiries, or hired local research part of the active plan. If the remaining decisive evidence is restricted/offline, identify it precisely, summarize the best-supported conclusion, grade surviving hypotheses, and stop.
-
-This keeps a brick wall from becoming an open-ended professional research project.
-
-## 4. Evidence grading
-
-Use consistent categories across cases:
+Use:
 
 - **Established / very high confidence**
 - **Strongly supported**
@@ -305,182 +228,183 @@ Use consistent categories across cases:
 - **Contradicted**
 - **Unknown**
 
-Avoid spurious numeric probabilities unless there is a real quantitative basis for them. “Weak candidate” is often more honest than “12% likely.”
+Avoid spurious numeric probabilities without a quantitative basis.
 
-Distinguish source types:
+Repeated online trees that derive from one claim are not independent corroboration.
 
-- original/contemporary record;
-- near-contemporary record;
-- later derivative genealogy;
-- unsourced online tree;
-- inference.
+Distinguish clearly among original/contemporary records, near-contemporary records, later derivative genealogies, unsourced trees, and inference.
 
-Repeated trees that descend from the same underlying assertion are not independent corroboration.
+## 6. Eighteenth-century wife identity / “migration Mama” protocol
 
-## 5. Special method for eighteenth-century disconnected wives: “migration Mama”
-
-The Sarah Conger investigation developed a reusable protocol for women whose natal identity may have been separated from their married identity by migration.
+The Sarah Conger and Anna Mahurin investigations show that the broader problem is **wife identity resolution**, with migration as one important failure mechanism.
 
 Use this sequence:
 
 1. Start from the husband and documented children.
-2. Prove or grade the wife’s given name and number of marriages.
-3. Establish maternity of children where possible.
-4. Treat the alleged maiden surname and exact dates as hypotheses.
-5. Reconstruct the husband’s pre-marriage and early-marriage residence.
-6. Build a compact FAN network from real relational edges.
-7. Search candidate maiden-surname households **inside that network**, not across the entire region.
+2. Reconstruct the husband’s complete wife sequence early.
+3. Establish or grade the wife’s given name and maternity of children.
+4. Treat alleged maiden surname and exact dates as hypotheses.
+5. Reconstruct the husband’s pre-marriage and early-marriage geography.
+6. Build a compact FAN network from actual relational edges.
+7. Search candidate maiden-surname households **inside that network** rather than across the whole region.
 8. Reconstruct plausible daughters and their fates.
-9. Look for disappearance/appearance timing.
-10. Seek direct bridge records: probate, deeds, dower releases, church transfers, marriage bonds, family Bibles, guardianship, estate receipts.
-11. Seek bridge people: siblings, cousins, witnesses, neighbors, or fellow migrants appearing in both origin and destination communities.
+9. Look for disappearance/appearance timing if migration occurred.
+10. Seek direct bridge records: probate, deeds, dower releases, church records, marriage bonds, Bible records, guardianships, estate receipts.
+11. Seek bridge people: siblings, cousins, witnesses, neighbors, or fellow migrants in both origin and destination.
 12. Extend ancestry only after the identity bridge is sufficiently established.
 13. If the bridge fails and the online road is exhausted, document and close the case.
 
-The refined rule is:
+Refined rule:
 
-**Husband -> prove wife -> prove maiden surname -> reconstruct natal family -> bridge -> ancestry.**
+**Husband -> prove/grade wife -> prove/grade maiden surname -> reconstruct natal family -> bridge -> ancestry.**
 
-## 6. FamilySearch operating procedure
+### Additional safeguards learned from Anna Mahurin
 
-FamilySearch is valuable for both Tree metadata and historical records, especially authenticated Full-Text Search.
+- **Reconstruct all wives early.** A later spouse’s proven maiden surname can contaminate an earlier spouse’s identity.
+- **Audit FamilySearch edit history as provenance evidence.** A late name/date change without a new source may reveal when a modern inference entered the tree.
+- **Read the underlying historical image, not the uploader’s title or filename.** User-created labels can silently insert a conclusion absent from the record.
+- **Grade atomic propositions separately.** A given name or maternity may be established while maiden surname, birth, death, and parentage remain unknown.
+- **Distinguish deed execution from acknowledgment/recording dates.** Administrative dates can otherwise create false spouse overlaps.
+- **Let a failed surname premise prune the search.** Do not exhaustively search candidate families for a surname whose attachment has itself collapsed.
 
-Every FamilySearch Work prompt should include:
+## 7. FamilySearch operating procedure
 
-> If FamilySearch requests login, CAPTCHA, 2FA, “prove you are human,” or another human verification, pause and ask the user to take over the browser. Do not abandon FamilySearch because verification is required. Do not request passwords in ordinary chat.
+Use FamilySearch for both Tree provenance and historical records, especially Full-Text Search.
 
-When reviewing a FamilySearch Tree profile, inspect not only attached sources but also:
+When auditing a Tree profile, inspect where accessible:
 
+- attached sources and which facts they support;
 - change history;
 - removed relationships;
-- duplicate profiles;
+- duplicates;
 - notes;
 - memories;
-- discussions/collaboration fields where available;
-- provenance of exact dates and places.
+- discussions/collaboration fields;
+- provenance of exact dates, places, surnames, and relationships.
 
-A precise tree date with no source trail should not be promoted to fact merely because it is precise.
+A precise tree date or name with no source trail is not automatically a fact.
 
-## 7. Operational lessons from long Work runs
+### Authentication and CAPTCHA preferences
 
-### Notifications and visibility
+The project preference is to minimize repetitive human friction while respecting whatever human-verification boundary the site/product requires.
 
-Enable available notifications and request very short phase checkpoints. Work’s default reporting can be opaque during long research; explicit checkpoint instructions greatly improve usability.
+Future Work prompts should say:
 
-### App/device state
+1. **Prefer one authorization per site per Work session when supported.** If Work is permitted to handle later CAPTCHA challenges from the same site after one explicit authorization, ask once and scope that permission only to that site and current Work session.
+2. **Prefer a tappable Yes/No approval.** If explicit user authorization is required and the interface supports a choice control, use a simple Yes/No inquiry rather than typed text.
+3. **Accept any contextually clear approval.** If typed authorization is required, “yes,” “go ahead,” “please proceed,” or equivalent clear language should count. Do not require a long exact phrase unless the product itself requires it.
+4. **Use human takeover when the challenge itself must be solved by the user.** Pause, hand control to the user, and resume automatically from the latest checkpoint afterward.
+5. **Do not generalize authorization beyond what is supported.** If permission cannot validly persist to later challenges, request only the minimum additional interaction needed.
 
-Cloud Work can continue when the user leaves the app or turns off the device. There is no need to keep the iPad in the foreground. Periodic manual checks remain useful for exception handling.
+Reusable prompt clause:
 
-### Browser/session problems
+> If a needed site presents a CAPTCHA or similar human-verification challenge, do not abandon the source. If the product supports one authorization covering CAPTCHA handling for that same site during the current Work session, prefer that option. If per-challenge approval is required, prefer a tappable Yes/No control when available. If typed approval is required, accept any contextually clear affirmative response rather than demanding a prescribed phrase. If the challenge itself must be solved directly by the human user, pause for takeover and resume from the latest checkpoint afterward. Never request passwords in ordinary chat.
 
-If Work functions on one device but a browser shows a disabled composer despite available allowance, test another device/session before assuming the account is blocked. Clearing ChatGPT/OpenAI site data can resolve stale browser state, but do not disturb a running cloud task unnecessarily.
+## 8. Long-run operating lessons
+
+### Notifications
+
+Enable available notifications and request short phase checkpoints. Work’s native reporting can otherwise be opaque during long investigations.
+
+### Device state
+
+Cloud Work can continue after the user leaves the app or turns off the device. Periodic checks are for exception handling, not to keep the task alive.
+
+### Browser/session state
+
+If Work functions on one device but a browser has a disabled composer despite available allowance, test another device/session before assuming the account is blocked. Clearing ChatGPT/OpenAI site data may repair stale browser state, but do not interrupt a healthy running cloud task unnecessarily.
 
 ### Concurrency
 
-A new Work composer may be unavailable while another Work task is actively running, depending on current account/session concurrency limits. Do not treat a greyed send button alone as proof of exhausted allowance; verify usage and the state of any existing Work task.
+A new Work composer may be unavailable while another Work task is actively running, depending on current concurrency limits. A grey send button alone does not prove allowance exhaustion; check usage and existing-task state.
 
 ### Allowance management
 
-Long searches can consume substantial short-window allowance. A good strategy is therefore:
+Reduce wasted compute by:
 
-- use Chat first to narrow the problem aggressively;
-- make Work prompts adaptive so low-value branches are pruned;
-- use early stopping for decisive evidence;
-- require resumable checkpoints;
-- monitor the usage dashboard rather than guessing from the composer state.
+- narrowing the problem in Chat first;
+- using ordered adaptive phases;
+- pruning contradicted branches;
+- early-stopping after decisive evidence;
+- requiring resumable checkpoints;
+- monitoring the usage dashboard.
 
-## 8. Repository and file-management convention
+## 9. Standard reusable Work-prompt boilerplate
 
-Use **Markdown as the canonical GitHub format** because it is searchable, diffable, and easy for future Chat/Work sessions to read.
+### Authentication / CAPTCHA
 
-For substantial documents, also create **DOCX copies** for local/physical backup and comfortable human reading.
-
-Recommended repository convention:
-
-- `docs/cases/` — ancestor-specific research reports;
-- `docs/methods/` — reusable research methods and operating guides.
-
-Recommended file header:
-
-- title;
-- status;
-- last reviewed date;
-- project scope;
-- canonical paths;
-- reopening rule where appropriate.
-
-Use stable filenames and update the file in place. Put revision dates and status **inside** the document rather than creating many nearly identical dated filenames.
-
-For redundancy, important case and method Markdown files should be stored in both project repositories. Local DOCX/Markdown copies can then be backed up to physical media by the user.
-
-## 9. Suggested standard Work prompt boilerplate
-
-The following clauses can be reused in future prompts.
-
-### Authentication
-
-> If a needed site requests login, CAPTCHA, 2FA, or other human verification, pause and request human takeover rather than abandoning the source. Never request credentials in ordinary chat.
+> If a needed site presents login, CAPTCHA, 2FA, or other human verification, do not abandon the source. Prefer one authorization per site/current Work session when supported; otherwise prefer a tappable Yes/No approval; otherwise accept any contextually clear affirmative wording. If direct human solving is required, pause for takeover. Never request credentials in ordinary chat.
 
 ### Adaptive execution
 
-> Do not distribute effort evenly across all phases. Let evidence from earlier phases determine which later avenues deserve deeper pursuit.
+> Do not distribute effort evenly across phases. Let earlier evidence determine where later effort goes.
 
 ### Pruning
 
-> If a candidate or hypothesis is decisively contradicted, record why, stop researching it for completeness, and redirect effort.
+> If a candidate is decisively contradicted, record the reason and stop researching it for completeness.
 
 ### Early stopping
 
-> If decisive direct evidence or a tightly convergent independent evidence set resolves the central question and makes remaining searches low-value, stop the research loop and report the finding.
+> If decisive evidence resolves the central question and makes remaining searches low-value, stop and report the result.
 
-### Allowance checkpoint
+### Allowance recovery
 
-> If execution may stop because of allowance or another system limitation, record the last completed phase, major findings, eliminated hypotheses, source identifiers, and exact next action so the run can resume without repetition.
+> Before any allowance/system stop, leave a resumable checkpoint with completed phase, findings, eliminated hypotheses, important source identifiers, and exact next action.
 
 ### Online endpoint
 
-> This is an online-only hobby research project. If reasonable online avenues are exhausted and the remaining decisive evidence is restricted/offline, identify it precisely, summarize the current best conclusion, and stop.
+> If reasonable online avenues are exhausted and decisive remaining evidence is restricted/offline, identify it precisely, state the best-supported conclusion, and stop.
 
 ### Deliverable
 
-> Return a full evidence report plus a concise Chat handoff summary suitable for independent peer review.
+> Return a full evidence report plus a 300–500 word Chat handoff capsule suitable for independent peer review.
 
-## 10. Quality-control checklist before accepting a Work genealogy result
+## 10. Pre-tree-change quality checklist
 
-Before changing the authoritative tree, Chat should be able to answer “yes” to the relevant items:
+Before accepting a difficult Work conclusion, Chat should be able to answer the relevant questions:
 
-- Has the target person’s identity itself been validated?
-- Are alleged exact dates actually sourced?
+- Has the target identity itself been validated?
+- Are exact dates/surnames actually sourced?
+- Have all spouse identities and marriage chronology been reconstructed where relevant?
 - Are same-name people explicitly distinguished?
 - Are chronology and geography coherent?
+- Are underlying images read independently of uploader titles/transcriptions?
 - Are candidate families reconstructed rather than merely named?
-- Is there a real relational bridge, not just proximity?
-- Have derivative/copying chains been recognized?
-- Are negative searches interpreted according to record completeness?
-- Has the strongest competing hypothesis been addressed?
-- Has Work respected the online-only scope?
-- If unresolved, is there a clear stopping reason and a precise future lead?
-- Has Chat independently reviewed the evidence before the tree is updated?
+- Is there a real relational bridge rather than proximity alone?
+- Have copied derivative chains been recognized?
+- Is negative evidence interpreted according to collection completeness?
+- Has the strongest competing explanation been tested?
+- Has Work respected the online-only stopping rule?
+- Has Chat independently reviewed the evidence?
 
-## 11. Recommended durable outputs per difficult ancestor
+## 11. Repository/document convention
 
-For each substantial case, retain:
+Canonical GitHub format: **Markdown**.
 
-1. **Full case report** — evidence, hypotheses, source trail, negatives, offline leads, status.
-2. **Short case capsule** — quick future orientation.
-3. **Work prompt(s)** when unusually reusable or methodologically important.
-4. **Final Chat peer-review decision** incorporated into the case report.
+- `docs/cases/` — ancestor-specific research reports.
+- `docs/methods/` — reusable methods and operating guides.
 
-This preserves not only the conclusion but also the path that produced it.
+Use stable filenames. Put status and review date inside the document rather than proliferating dated copies.
+
+Important case/method files should be mirrored in both project repositories. DOCX copies may be generated for local/physical backup.
+
+Each case report should include:
+
+- target and identifiers;
+- status;
+- verified facts;
+- unsupported inherited assertions;
+- candidate/elimination analysis;
+- evidence and important negatives;
+- online collections searched;
+- restricted/offline leads;
+- final tree treatment;
+- reopening rule.
 
 ## 12. Core philosophy
 
-The goal is not to make Work autonomous for its own sake. The goal is to use each mode for what it does best.
+The goal is not maximum autonomy. The goal is a high-throughput, auditable research loop that uses each participant for what it does best:
 
-Work provides extraordinary breadth, persistence, and speed across tedious multi-step online research. Chat provides the slower layer of target selection, hypothesis design, methodological control, and adversarial review. The user supplies authentication, scope choices, and final project judgment.
+**Chat plans -> user hands off -> Work investigates -> user returns results -> Chat audits -> tree/document decision -> next target.**
 
-The preferred loop is therefore:
-
-**Chat plans -> user hands off -> Work investigates -> user returns results -> Chat audits -> tree/documentation decision -> next target.**
-
-That loop produced a much more defensible result in the Sarah Conger case than either a broad unsupervised search or a purely manual hobbyist investigation would likely have produced.
+Work supplies extraordinary breadth and persistence. Chat supplies hypothesis design, methodological control, and adversarial review. The user supplies human authentication, scope choices, and final project judgment.
