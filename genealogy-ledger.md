@@ -11,10 +11,10 @@ If conversation context is ever lost, a useful recovery instruction is: **“Fin
 
 ## Immediate state
 
-- **John Morehouse LH3N-NZT** — Work investigation complete; ordinary Chat peer review still pending before any FamilySearch edits.
+- **John Morehouse LH3N-NZT** — Work investigation and ordinary-Chat peer review complete. The likely one-generation displacement is strongly supported, but the exact bridge from the adult Sarah-Pierson John to the grandson named in the 1760 will is not yet established. No FamilySearch relationship edit yet.
 - **Next planned Work case:** Nathaniel Peck M4DP-DRQ.
-- **Then:** investigate the newly exposed unknown wife of the predeceased John Morehouse who appears to have been the true father of LH3N-NZT.
-- No FamilySearch relationship changes should be made from Work findings until ordinary Chat has peer-reviewed the case.
+- **Then:** a targeted Morehouse bridge-and-wife investigation: connect LH3N-NZT to the 1760 grandson, document the intervening predeceased John, and identify his wife if possible.
+- Canonical peer-reviewed John report: `docs/cases/john_morehouse_generation_parentage_investigation.md`.
 
 ## Original broken-branch roster
 
@@ -22,7 +22,7 @@ If conversation context is ever lost, a useful recovery instruction is: **“Fin
 |---|---|---|---|---|
 | 1 | Sarah Jones / Sarah surname unknown | LCRC-GYJ | **Completed — online-exhausted unresolved** | Historical wife Sarah is plausible; maiden surname Jones is weak; exact parentage unresolved. Preferred representation: **Sarah, surname unknown; traditionally reported as Sarah Jones.** |
 | 2 | Anna Snow / Anna Mahurin | LH62-G2T | **Completed — identity corrected; parentage unresolved** | The wife of David Mahurin was Anna [maiden surname unknown]. “Anna Snow” is probably a later contamination from David’s second wife Lucy/Lucia Snow. Online case closed without parents. |
-| 3 | John Morehouse | LH3N-NZT | **Work complete — awaiting Chat peer review** | Strong indication that current FS father John Morehouse PZYK-MFG is actually the **grandfather** (1760 Southampton testator). An intervening predeceased John appears to be the true father. Target’s mother remains unknown. |
+| 3 | John Morehouse | LH3N-NZT | **Completed peer review — generation error strongly supported; parentage bridge incomplete** | The 1760 Southampton will explicitly calls a younger John a grandson. Current FS father PZYK-MFG appears to represent that testator and therefore is probably one generation too high. Howell strongly supports an intervening predeceased John, but the adult LH3N-NZT/Sarah Pierson identity still needs a direct bridge to the will’s grandson before tree editing. |
 | 4 | Debby / Deborah Phillips | KCWY-YPL; later merged into KZRG-R84 | **Completed — online-exhausted unresolved parentage** | Deborah is securely the wife of the elder Henry Trask and mother of the 1777 Henry Trask. Her own parents remain unresolved. |
 | 5 | Elizabeth Woodward | K8H6-SKZ | **Queued** | Original assertions: born 1730 New Hampshire; died 1805 Cornish, New Hampshire. Parents unresolved. |
 | 6 | Maria Elizabeth Loux | KNV1-BCH | **Queued** | Original assertion: born 1741 Stone Arabia, New York. Palatine/immigrant context likely. Parents unresolved. |
@@ -33,24 +33,26 @@ If conversation context is ever lost, a useful recovery instruction is: **“Fin
 
 ## Newly exposed branches
 
-### Unknown wife of the predeceased John Morehouse — mother of LH3N-NZT
+### Intervening John Morehouse family / unknown wife — bridge required
 
-**Status:** New direct-line research target; place in queue immediately after Nathaniel Peck, subject to John Morehouse peer review.
+**Status:** New direct-line research target; place in queue immediately after Nathaniel Peck.
 
-Current reconstruction from the John Morehouse Work report:
+Peer-reviewed reconstruction:
 
-1. John Morehouse, Southampton immigrant, died 1701.
-2. John Morehouse, wife Zerviah, Southampton will dated 4 January 1760 — appears to be PZYK-MFG.
-3. A predeceased son **John Morehouse**, wife **unknown** — apparent true father of LH3N-NZT.
-4. John Morehouse LH3N-NZT, born about 1740, husband of Sarah Pierson.
+1. John Morehouse, Southampton immigrant, died 1701 — upstream relationship derivative and not yet audited as a separate case.
+2. John Morehouse, wife Zerviah, Southampton will dated 4 January 1760 — strongly appears to be PZYK-MFG.
+3. A predeceased son **John Morehouse**, wife **unknown** — strongly supported by Howell’s reconstruction of the will’s Morehouse grandchild cluster.
+4. John Morehouse LH3N-NZT, probably born about 1740 and later associated with Sarah Pierson — strongly supported as the likely grandson John, but no contemporary relational bridge yet proves that the later adult man is the grandson named in the will.
 
-The 1760 will explicitly identifies a younger John as a grandson and names the sibling cluster John, Nathan, Isaac, and Phebe; Howell’s reconstruction supplies the missing generation. The **wife of the predeceased father is not identified** and is therefore a genuine new broken branch if the peer review confirms the reconstruction.
+The 1760 will explicitly identifies John, Nathan, and Isaac Morehouse as grandsons and Phebe Morehouse as a granddaughter. Howell assigns John, Nathan, Isaac, Phebe, and Zerviah as children of an intervening John. This is persuasive, but the will itself does not name the grandchildren’s father and later descendant histories compress the generations.
 
-Highest-value future records suggested by Work: Southampton deeds and dower releases; town/church records; guardianships; full 1760 probate packet; land divisions and earmarks.
+Therefore the next Morehouse case is **not merely “find the missing mother.”** It must first establish the identity bridge and then identify the intervening father’s wife if possible.
+
+Highest-value future records: Southampton deeds and dower releases; guardianships and estate divisions; town/church records; full 1760 probate packet; land divisions and earmarks; New Jersey tax/deed/church records anchored on the children; Andrew and Sarah Wager records; Fayette/Westmoreland land and tax records.
 
 ### Upstream Morehouse watchlist — not yet promoted to a Work case
 
-The 1760 testator is provisionally reconstructed as a son of the earlier Southampton immigrant John Morehouse, but the testator’s mother was not established in the John investigation. The immigrant John’s own parentage may also become a break. **Do not add these to the active queue until the John case is peer-reviewed and the upstream relationships are audited.**
+The 1760 testator is provisionally reconstructed as a son of the earlier Southampton immigrant John Morehouse, but that relationship currently rests on later editorial/genealogical reconstruction rather than a reviewed direct bridge. The testator’s mother was not established, and the immigrant John’s own parentage may also become a break. **Do not add these to the active queue until the bridge-and-wife case is resolved or online-exhausted and the upstream relationships are audited.**
 
 ## Collateral investigations that changed the branch map
 
@@ -64,10 +66,10 @@ The inherited 1771 Plymouth profile initially appeared incompatible with Deborah
 
 Previously researched separately and excluded from the active broken-branch queue.
 
-## Current planned order after John peer review
+## Current planned order
 
 1. **Nathaniel Peck M4DP-DRQ** — complete the two-male experiment begun with John Morehouse.
-2. **Unknown wife of the predeceased John Morehouse** — newly exposed mother of LH3N-NZT.
+2. **Morehouse bridge-and-wife investigation** — connect LH3N-NZT to the 1760 grandson, document the intervening John, and identify his wife if possible.
 3. **Elizabeth Woodward K8H6-SKZ**.
 4. **Maria Elizabeth Loux KNV1-BCH**.
 5. **Phebe 9VWG-63Y**.
