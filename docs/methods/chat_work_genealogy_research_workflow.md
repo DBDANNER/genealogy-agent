@@ -1,13 +1,18 @@
 ---
 title: Chat + Work Genealogy Research Workflow
-status: ACTIVE METHOD
-last_reviewed: 2026-09-09
+status: SUPERSEDED / HISTORICAL METHOD
+last_reviewed: 2026-09-12
 project: Ancestry
-purpose: Reusable operating guide for combining Chat judgment, Work execution, and user intervention in difficult online genealogy research.
+purpose: Historical operating guide for the earlier Chat + Work genealogy workflow. Retained for reference; no longer the current operational source.
 canonical_paths:
   - ancestry_repo/docs/methods/chat_work_genealogy_research_workflow.md
   - genealogy-agent/docs/methods/chat_work_genealogy_research_workflow.md
+superseded_by:
+  - /genealogy-work-guide.md
+  - /genealogy-ledger.md
 ---
+
+> **Historical / superseded workflow.** This document was especially useful during the earlier phase of the project, when new chats had little continuity and the project was still developing FamilySearch harvesting and research machinery. The project has now outgrown that operating model. For current work, use the root-level **`genealogy-work-guide.md`** for Work prompting, telemetry, checkpoints, evidence standards, and execution practice, and **`genealogy-ledger.md`** for the current ancestor queue and project state. The material below is retained as historical reference and may still contain useful methodological detail, but it should not override those two current files.
 
 # Chat + Work Genealogy Research Workflow
 
