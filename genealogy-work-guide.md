@@ -1,7 +1,7 @@
 # Genealogy Work Guide
 
 **Current operating guide for using ChatGPT Work in the Ancestry project**  
-Last updated: 12 September 2026
+Last updated: 13 September 2026
 
 If conversation context is ever lost, a useful recovery instruction is: **“Find the genealogy Work guide in the root of my ancestry GitHub repository.”**
 
@@ -261,6 +261,8 @@ Update telemetry:
 - whenever waiting for user intervention;
 - at completion.
 
+After every write to `current-work.txt`, immediately re-fetch it using the native GitHub connector and verify that the written file contains only the intended telemetry schema. Never write diagnostic conversation, troubleshooting prose, connector tests, or tool-access discussion into `current-work.txt`.
+
 `current-work.txt` is disposable live telemetry. The durable project queue is `genealogy-ledger.md`.
 
 ## 11. Local continuity files — mandatory for long runs
@@ -370,3 +372,22 @@ The two root-level memory anchors are therefore:
 
 **genealogy ledger = project state**  
 **genealogy Work guide = operating method**
+
+## 17. Optional user monitoring automation
+
+For long Work investigations, the user may optionally ask ordinary Chat to create a scheduled supervisory check of `DBDANNER/ancestry_repo/current-work.txt`. This is a **user monitoring option**, not a responsibility assigned to Work itself. Work's job remains to write accurate telemetry; the scheduled ordinary-Chat check reads and interprets it.
+
+The fastest supported recurring schedule is **once per hour**. A 30-minute recurring check is not supported. Checks may be anchored to elapsed time from creation or to a clock-hour schedule, depending on the user's preference.
+
+The monitoring automation should normally stay silent during ordinary progress and notify the user only when something materially warrants attention. Recommended notification conditions are:
+
+1. **Terminal or intervention state.** Notify when telemetry reports `COMPLETE`, `BLOCKED`, `WAITING FOR USER`, or `ALLOWANCE EXHAUSTED`.
+2. **Possible stall or allowance depletion.** If telemetry still says `ACTIVE` but remains materially unchanged for two consecutive hourly checks, notify cautiously that Work may be stalled or may have exhausted its current allowance. Do not treat unchanged telemetry as proof; a legitimate long source-navigation step can also produce no update.
+3. **Possible task derailment.** Notify if the telemetry suggests Work has materially departed from the assigned research question or operating rules—for example, switching to the wrong ancestor, expanding into a broad unrelated collateral tree, contradicting settled scope without new evidence, using browser/CLI GitHub access despite the native-connector rule, unexpectedly proposing or making FamilySearch edits, or reporting internally inconsistent `Result`, `Now doing`, `Next`, or `Important concern` fields.
+4. **Human intervention required despite nominal ACTIVE state.** Notify if `Blocker`, `Now doing`, or another field indicates CAPTCHA, login, approval, user decision, or takeover is needed even though `State` was not changed appropriately.
+5. **Telemetry integrity failure.** Notify if `current-work.txt` becomes malformed, loses required fields, is replaced by diagnostic/troubleshooting prose, unexpectedly refers to the wrong case, regresses to an earlier phase, or reports completion while the promised report/checkpoint is missing or inconsistent.
+6. **Major breakthrough.** Optionally notify when telemetry reports a genuinely consequential discovery—for example, an explicit relational bridge that appears to resolve the central genealogy question—even if the run is still active.
+
+Do not send routine “everything is fine” notifications for every hourly check. The purpose is exception monitoring: completion, trouble, probable stalling, material deviation, required human action, telemetry failure, or a major breakthrough.
+
+The automation should interpret telemetry conservatively. It is a supervisory convenience, not an independent research authority; any substantive genealogical conclusion still requires ordinary-Chat peer review before tree editing.
