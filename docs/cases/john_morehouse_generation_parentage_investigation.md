@@ -1,181 +1,255 @@
 ---
-title: John Morehouse LH3N-NZT — Generation and Parentage Investigation
-status: PEER-REVIEWED — GENERATION ERROR STRONGLY SUPPORTED; EXACT PARENTAGE BRIDGE INCOMPLETE
-reviewed: 2026-09-12
+title: John Morehouse LH3N-NZT — Generation, Bridge, and Parentage Investigation
+status: PEER-REVIEWED — MISSING GENERATION STRONGLY SUPPORTED; EXACT BRIDGE NOT ESTABLISHED; ONLINE-EXHAUSTED
+reviewed: 2026-09-15
 project: Ancestry
 target_pid: LH3N-NZT
-work_report: /John_Morehouse_LH3N-NZT_investigation.html
+work_reports:
+  - /John_Morehouse_LH3N-NZT_investigation.html
+  - /John_Morehouse_LH3N-NZT_bridge_and_wife_investigation.html
 ---
 
-# John Morehouse LH3N-NZT — Generation and Parentage Investigation
+# John Morehouse LH3N-NZT — Generation, Bridge, and Parentage Investigation
 
 ## Executive conclusion
 
-The Work investigation was highly productive. It identified a likely **one-generation displacement** in the current FamilySearch pedigree, but ordinary-Chat peer review narrows the conclusion slightly from the Work report.
+Two Work investigations plus ordinary-Chat peer review have resolved the **shape of the pedigree problem** much more securely than they have resolved the exact parentage.
 
-The 1760 will of John Morehouse of Southampton explicitly leaves major property to **“my grandson, John Morehouse”** and also names grandsons Nathan and Isaac Morehouse and granddaughter Phebe Morehouse. Therefore the John Morehouse represented by that will cannot simultaneously be the direct father of that particular grandson John.
+The full recorded will of John Morehouse of Southampton, dated 4 January 1760 and proved 25 December 1760, explicitly names Morehouse grandsons **John, Nathan, and Isaac** and Morehouse granddaughters **Mary and Phebe**. The current FamilySearch structure places John Morehouse PZYK-MFG directly above John Morehouse LH3N-NZT. If PZYK-MFG represents the 1760 testator, that direct parent-child placement is incompatible with the will's explicit grandchild relationship.
 
-George Rogers Howell’s 1887 Southampton genealogy states that this 1760 testator was the “second John,” husband of Zerviah, that he had sons John, Nathan, and Gideon whom he outlived, and that the “third John” had children John, Nathan, Isaac, Phebe, and Zerviah. This reconstruction explains the grandchild cluster in the will very well and supplies an intervening, predeceased father named **John Morehouse**.
+George Rogers Howell's later Southampton reconstruction supplies the missing generation: a predeceased son **John Morehouse**, whose children substantially match the grandchild cluster in the will. That reconstruction remains highly persuasive, but the follow-up search found no contemporary record explicitly naming that intervening John as father of the grandchild cluster, and no contemporary record directly connecting the later adult John LH3N-NZT to the grandson John named in the will.
 
-Accordingly:
+The follow-up also failed to identify the intervening father's wife.
 
-- It is **strongly supported** that current FamilySearch father **John Morehouse PZYK-MFG**, if correctly identified as the 1760 Southampton testator, is **one generation too high** to be the direct father of the younger John named as his grandson in the will.
-- It is **strongly supported, but not established**, that **John Morehouse LH3N-NZT** is that grandson John and thus a son of an intervening, predeceased John Morehouse.
-- The identity of the intervening father’s wife — the target’s mother under this reconstruction — remains **unknown**.
-- The later adult identity of LH3N-NZT as the John who married Sarah Pierson, moved into New Jersey, and supposedly died at Redstone, Pennsylvania remains only partly supported by derivative evidence. No contemporary relational record yet bridges that adult man directly back to the 1760 grandson.
+Final peer-reviewed classification:
 
-No FamilySearch relationship change should be made yet solely from this investigation. The next Morehouse-specific Work case should first **bridge the adult target to the 1760 grandson and identify the intervening father and his wife**, rather than assuming the missing mother in advance.
+**MISSING GENERATION STRONGLY SUPPORTED**  
+**LH3N-NZT ↔ 1760 GRANDSON JOHN STRONGLY SUPPORTED, NOT ESTABLISHED**  
+**INTERVENING FATHER JOHN STRONGLY SUPPORTED, NOT ESTABLISHED**  
+**INTERVENING WIFE UNKNOWN**  
+**REASONABLE ONLINE ROAD EXHAUSTED**
 
-## Central evidence
+This is therefore not a case in which we should fill blank parents. It is a case in which the inherited direct-father placement is probably wrong, while the exact replacement relationship remains one evidentiary step short of proof.
 
-### 1. The 1760 will
+## Ordinary-Chat critique of the follow-up Work investigation
 
-William S. Pelletreau’s published abstract of New York Surrogate Liber 22, page 411, preserves the following relationships from the will of John Morehouse of Southampton, dated 4 January 1760 and proved 25 December 1760:
+The follow-up was methodologically sound and materially improved the case.
+
+The first investigation had already shown that the 1760 will and Howell's reconstruction strongly implied a skipped generation, but ordinary-Chat peer review correctly declined to call the case online-exhausted because several high-value, specifically identifiable record classes remained untested: the full recorded probate material, Southampton deeds and divisions, guardianship/minor-heir material, New Jersey bridge evidence, and the Sarah Pierson / Andrew Wager claims.
+
+The follow-up tested those routes. It found the full recorded will and probate certificate, checked the relevant Southampton land evidence against deed indexes, searched the statewide Chancery guardianship abstracts, re-examined the adult New Jersey identity, and audited the Sarah Pierson and Andrew Wager traditions. None supplied the missing relational sentence.
+
+That matters. The present stopping decision is not based on research fatigue or generic negative searching; it follows completion of the specific evidence paths most likely to change the conclusion.
+
+The main caution is that the search still depends partly on indexed/abstracted access. A manual archival examination of unindexed deed books, local court material, church registers, or surviving original papers could someday produce a bridge. That possibility does not justify continued open-ended online searching now.
+
+## 1760 testator and PZYK-MFG
+
+The live FamilySearch profile PZYK-MFG is thinly sourced and appears to be structurally contaminated by the compressed pedigree. It should not be treated as proof of its own relationships.
+
+Nevertheless, its name, Southampton context, intended place in the Morehouse line, and descendant structure strongly indicate that it represents the John Morehouse whose will was dated 4 January 1760 and proved 25 December 1760.
+
+Peer-review grade:
+
+**PZYK-MFG = 1760 Southampton testator: Strongly supported.**
+
+Because that profile identity is not itself established by a clean set of primary sources, all downstream statements should preserve the conditional wording when discussing the PID specifically.
+
+## Full recorded will and probate
+
+The follow-up located the recorded will in FamilySearch, DGS **005512804**, images **262–263**, manuscript pages **11–13**.
+
+The will names:
 
 - grandson John Morehouse;
 - grandson Nathan Morehouse;
 - grandson Isaac Morehouse;
-- granddaughter Phebe Morehouse;
-- daughter Zerviah;
-- several Stuart and Hand grandchildren.
+- granddaughters Mary and Phebe Morehouse;
+- daughter Zeruiah;
+- Stuart and Hand grandchildren.
 
-The will is the strongest evidence in the case because the kinship term **grandson** is explicit and contemporary to the testator.
+John receives substantial Southampton property including the home lot and other lands; Nathan and Isaac also receive specific property interests.
 
-Important limitation: the abstract does **not** itself state which deceased child of the testator was father of John, Nathan, Isaac, and Phebe.
+This is the central contemporary evidence.
 
-### 2. Howell’s 1887 reconstruction
+The decisive limitation is equally clear: the instrument does **not** identify which child of the testator was parent of the Morehouse grandchildren. No separate online receipt, guardian paper, distribution, or other probate item was found that supplies that relationship.
 
-George Rogers Howell’s *The Early History of Southampton, L.I.* states that:
+The follow-up also corrected an earlier citation misconception: the often-repeated “page 411” belongs to the later Pelletreau abstract, while the recorded liber pages are manuscript pages 11–13.
 
-- the first John Morehouse died 10 October 1701;
-- the second John had wife Zerviah and made the 1760 will;
-- the second John had children John, Nathan, and Gideon, whom Howell says he must have outlived;
-- the third John had children John, Nathan, Isaac, Phebe, and Zerviah.
+## Intervening father
 
-The exact overlap between Howell’s child list for the “third John” and the Morehouse grandchildren in the 1760 will makes Howell’s reconstruction persuasive.
+Howell's 1887 reconstruction states that the 1760 testator and wife Zerviah had sons including John, and that this later John had children John, Nathan, Isaac, Phebe, and Zerviah.
 
-However, Howell is a **later derivative source**, written more than a century after the events. His statement supplies the missing parent-child allocation but is not equivalent to a contemporary deed, guardianship, probate receipt, baptism, or other direct relational record.
+The overlap with the will's grandchild cluster is striking. It remains the strongest evidence for assigning the grandchildren to a predeceased son John.
 
-### 3. Pelletreau’s editorial note
+The 1763 Southampton town material adds modest indirect support: one division lists a living “John Morehouse,” while another lists “Heirs of John Morehouse.” This is compatible with multiple generations of the name but is too ambiguous to establish the relationship.
 
-The published will volume includes a later editorial note stating that the 1760 testator was son of the immigrant John Morehouse who died in 1701 and that the testator appears to have outlived his children.
+No contemporary record found says “John, son of deceased John,” “children of John,” or equivalent.
 
-This is useful support, but it is an editorial reconstruction rather than text from the will itself.
+Peer-review grade:
 
-### 4. Treman descendant history
+**Intervening father was another John Morehouse: Strongly supported, not established.**
 
-The 1901 Treman/Tremaine/Truman family history identifies a John Morehouse born about 1740, married to Sarah Pierson, and gives the later New Jersey / Redstone / descendant tradition. It also presents the sequence as immigrant John -> “John Morehouse, 2nd” -> “John Morehouse, 3d,” effectively **compressing away the intervening generation** implied by the will and Howell.
+## LH3N-NZT ↔ grandson John bridge
 
-That internal inconsistency is important. Treman is useful evidence for the later family tradition but cannot by itself prove the generation structure.
+The adult John represented by LH3N-NZT remains compatible with the grandson John named in the will:
 
-## Peer-review grading by proposition
+- name and chronology fit;
+- later family tradition places him in the same Southampton lineage;
+- later descendants are associated with New Jersey;
+- Pierson Morehouse married Electa Conger in Morris County, New Jersey, in 1797;
+- the unusual Pierson given name is compatible with the claimed Sarah Pierson maternal connection and with Pierson associates surrounding the 1760 probate.
 
-| Proposition | Grade | Reason |
-|---|---|---|
-| The 1760 Southampton testator had a grandson named John Morehouse | **Established / very high confidence** | Explicit in the will abstract. |
-| PZYK-MFG represents the 1760 testator | **Strongly supported** | Work’s FamilySearch audit plus matching spouse/child context; should still be verified before tree editing. |
-| PZYK-MFG is one generation too high as direct father of the will’s grandson John | **Established if PZYK-MFG = testator** | Logical consequence of the explicit “grandson” relationship. |
-| An intervening predeceased father named John Morehouse existed | **Strongly supported** | Howell’s reconstruction fits the will’s Morehouse grandchild cluster precisely, but no contemporary relational bridge was found. |
-| LH3N-NZT is the grandson John named in the will | **Strongly supported current reconstruction, not established** | Name, chronology, Southampton tradition, disappearance/migration pattern, and later descendant genealogy fit; no contemporary record directly bridges the adult target to the will. |
-| The target’s mother was the wife of the intervening John | **Structurally likely if the reconstruction is correct; identity unknown** | No reliable source found naming her. |
-| Zerviah was the target’s mother | **Contradicted under the best reconstruction** | Zerviah belongs to the older generation as wife of the 1760 testator. |
-| Birth about 1740 at Southampton | **Plausible / derivative** | Repeated later, not independently established. |
-| Marriage to Sarah Pierson about 1766–1768 | **Plausible / derivative** | Later family history; no contemporary marriage record found. |
-| Death at Redstone, Pennsylvania, c.1780–1788 | **Weak / uncorroborated** | Targeted Fayette/Westmoreland probate searching produced no matching early estate. |
-| Sarah’s remarriage to Andrew Wager c.1785 | **Plausible / derivative** | If confirmed, would imply John’s death before that marriage and argue against a death as late as 1788. |
+But none of those facts is a direct identity bridge.
 
-## Same-name and identity controls
+No located New Jersey record calls adult John formerly of Southampton, identifies him as an heir of the 1760 testator, or places him in a sibling transaction with Nathan, Isaac, Phebe, Mary, or Zerviah.
 
-The Work report correctly distinguished several different John Morehouses:
+No Southampton deed index entry from the focused 1760–1785 search produced a relevant Morehouse/Moorhouse conveyance. No indexed quitclaim, heir deed, dower release, or partition tied the later adult to the inherited property.
+
+Peer-review grade:
+
+**LH3N-NZT = grandson John in the 1760 will: Strongly supported analytical reconstruction, not established.**
+
+## Guardianship and minor-heir evidence
+
+The searchable FamilySearch copy of Kenneth Scott's statewide New York Chancery guardianship abstracts, 1691–1815, returned no Morehouse or Moorhouse result.
+
+No online guardianship, bond, apprenticeship, orphan proceeding, or similar record was found naming John, Nathan, Isaac, Mary, Phebe, or Zerviah as children of a deceased John Morehouse.
+
+This is meaningful negative evidence but not proof that no such proceeding ever existed.
+
+## Sarah Pierson
+
+The claimed marriage of the younger John to Sarah Pierson remains **plausible but derivative**.
+
+The FamilySearch material supporting Sarah is not a contemporary marriage register; one expanded citation reduces to a pedigree-chart source. Her surname is contextually attractive because Job Pierson served as executor of the 1760 will and Lemuel Pierson Jr. and Elizabeth Pierson were witnesses, but no record found establishes Sarah's relationship to those Piersons or her marriage to the grandson John.
+
+Peer-review grade:
+
+**Sarah Pierson as wife of LH3N-NZT: Plausible / derivative, not established.**
+
+## Andrew Wager tradition
+
+The claimed remarriage of Sarah to Andrew Wager was not substantiated.
+
+No indexed marriage or relational record was found identifying Sarah as widow of John Morehouse, and the alternate-name tradition is unsourced.
+
+Peer-review grade:
+
+**Sarah remarried Andrew Wager: Weak / unproved.**
+
+It should not be used to revise John's death date or prove the Southampton bridge.
+
+## Same-name controls
+
+The case requires continued separation of at least:
 
 1. the 1760 Southampton testator;
-2. the intervening, predeceased “third John” reconstructed by Howell;
-3. the younger John associated with the c.1740/Sarah Pierson tradition and represented by LH3N-NZT;
-4. a Dutchess County John Moorehouse born about 1745;
-5. separate Connecticut Johns of similar age.
+2. the probable intervening predeceased John;
+3. the younger adult John represented by LH3N-NZT;
+4. other contemporary Johns in New York/New England.
 
-This same-name analysis is one of the report’s strongest methodological features. The case should not be reduced to ordinal labels such as “John 2nd/3rd/4th”; those ordinals vary across derivative genealogies and can themselves hide a missing generation.
+A 29 October 1780 John Morehouse–Mary Joanes marriage license remains an unresolved same-name control and must not be assigned to LH3N-NZT without identity evidence.
 
-## Adult identity and migration assessment
+Ordinal labels such as “John 2nd,” “John 3rd,” and “John 4th” are unsafe because derivative genealogies use them inconsistently and can conceal the very skipped generation at issue.
 
-The later-life chronology is useful but remains less secure than the Southampton generation evidence.
+## Source-chain and circularity assessment
 
-- A John Morehouse appears in the Southampton association list in May 1775, but the name alone does not prove identity.
-- In the 1776 Southampton census, Phebe Morehouse appears as a household head while John is absent from the searchable text. This is consistent with departure after 1775 but is not proof of destination.
-- Later descendant history places children in New Jersey and claims John died at Redstone, Pennsylvania.
-- Targeted Fayette and Westmoreland probate searches did not locate a matching early estate. These are meaningful negatives but cannot prove he was never there.
+The full recorded 1760 will is independent contemporary evidence.
 
-The key unresolved issue is therefore not simply “who was his mother?” It is first: **can the adult John associated with Sarah Pierson be directly connected to the grandson John of the 1760 Southampton will?**
+Howell, Pelletreau's editorial comments, Treman, later compiled genealogies, FamilySearch relationship structures, and modern derivative trees must not be counted as multiple independent proofs merely because they repeat compatible names.
 
-## Source-chain / circularity assessment
+Howell is particularly valuable because its reconstructed child cluster aligns closely with the will, but it remains a later genealogy. Treman demonstrates the hazard directly by preserving many recognizable people while compressing generations.
 
-The 1760 will abstract is the central independent evidence. Howell (1887), Pelletreau’s editorial note (1898), and Treman (1901) are later genealogical reconstructions. They should not be counted as three independent proofs of the same lineage merely because they repeat compatible names.
+The follow-up did not discover an independent contemporary source that breaks this circularity.
 
-Howell predates the Pelletreau publication used here, so simple copying from that printed volume is impossible, but both may rely on overlapping Southampton records or local genealogical tradition. Treman’s generational compression shows that later family histories can preserve real people and relationships while still misplacing a generation.
+## Proposition-by-proposition grading
 
-FamilySearch Tree relationships are provenance clues, not independent evidence.
+| Proposition | Final grade |
+|---|---|
+| 1760 Southampton testator had grandson John Morehouse | **Established / very high confidence** |
+| Testator also had grandsons Nathan and Isaac and granddaughters Mary and Phebe Morehouse | **Established / very high confidence** |
+| PZYK-MFG represents that testator | **Strongly supported** |
+| Current direct-father placement of PZYK-MFG over the will's grandson John is wrong | **Established if PZYK-MFG = testator** |
+| A missing generation exists between the 1760 testator and the younger grandson John | **Strongly supported** |
+| Missing father was another John Morehouse | **Strongly supported, not established** |
+| LH3N-NZT is the grandson John named in the will | **Strongly supported, not established** |
+| Missing father's wife / LH3N-NZT's mother | **Unknown** |
+| Zerviah was LH3N-NZT's mother | **Contradicted under the best reconstruction** |
+| Sarah Pierson was LH3N-NZT's wife | **Plausible / derivative** |
+| Sarah remarried Andrew Wager | **Weak / unproved** |
+| Birth about 1740 at Southampton | **Plausible / derivative** |
+| Death at Redstone, Pennsylvania c.1780–1788 | **Weak / uncorroborated** |
+
+## Analytical pedigree for downstream work
+
+For migration, chronology, and other later analytical work, the following may be used as a **clearly labeled analytical overlay**, not as a proved pedigree:
+
+1. John Morehouse, Southampton immigrant, died 1701 — upstream relationship not independently audited in this project.
+2. John Morehouse, wife Zerviah, 1760 Southampton testator — likely PZYK-MFG.
+3. **John Morehouse, predeceased before 1760, wife unknown — strongly supported reconstructed generation, no established PID.**
+4. John Morehouse LH3N-NZT — strongly supported as the grandson John, later adult identity partly derivative.
+
+This overlay is preferable to silently retaining the compressed direct-parent structure in analyses because the 1760 will demonstrates that the younger John occupied a grandchild generation relative to the testator.
 
 ## Recommended tree treatment
 
-**For now: no FamilySearch relationship edits.**
+**Do not alter the mini-trees or FamilySearch yet.**
 
-Before changing the target’s father:
+Instead, carry the research result in the project's tree-alteration overlay until the final reconciliation stage.
 
-1. verify that PZYK-MFG is indeed the 1760 testator;
-2. obtain a stronger bridge between LH3N-NZT’s adult identity and the grandson John in the will;
-3. identify or document the intervening John Morehouse with contemporary or near-contemporary records if possible;
-4. only then insert the missing generation and detach the grandfather from the direct-father position;
-5. do not assign a mother until evidence identifies the intervening father’s wife.
+At that stage the likely structural correction will be:
 
-If the bridge is confirmed, the likely corrected structure is:
+- remove the unsupported direct father-child link between LH3N-NZT and PZYK-MFG if PZYK-MFG is confirmed as the 1760 testator;
+- insert one intervening generation;
+- represent the intervening father as John Morehouse only if the project accepts the strongly supported Howell reconstruction as sufficient for a working tree;
+- leave the intervening wife/mother unknown;
+- do not place Zerviah as LH3N-NZT's mother;
+- preserve explicit confidence notes that the adult-target ↔ grandson bridge remains unproved by a contemporary relational record.
 
-1. John Morehouse, Southampton immigrant, died 1701 — upstream relationship still derivative and should be audited separately;
-2. John Morehouse, wife Zerviah, 1760 Southampton testator — likely PZYK-MFG;
-3. predeceased John Morehouse, wife unknown;
-4. John Morehouse LH3N-NZT, probably born about 1740, later associated with Sarah Pierson.
-
-## Next Morehouse Work case
-
-After Nathaniel Peck, launch a **targeted bridge-and-wife investigation**, not a mother-only search.
-
-Central question:
-
-> Can the adult John Morehouse represented by LH3N-NZT be connected by defensible evidence to the grandson John named in the 1760 Southampton will, and if so, can the intervening father and his wife be identified?
-
-Highest-value records:
-
-- Southampton deed grantor/grantee indexes and early deed images, especially releases of dower and conveyances involving the home lot or inherited parcels;
-- guardianships and estate divisions following the intervening father’s death;
-- Southampton church/town records, baptisms, earmarks, and land divisions for the five-child cluster;
-- the full original probate file for Liber 22 p. 411, including receipts, renunciations, or guardianship papers omitted from the abstract;
-- New Jersey tax, deed, and church records using Gideon and Pierson as anchors;
-- Andrew and Sarah Wager records that might explicitly identify Sarah as widow of John Morehouse;
-- Fayette/Westmoreland tax and land records rather than probate alone.
+This is an indicated correction, not yet an executed tree edit.
 
 ## Online-road assessment
 
-**Not online-exhausted.** Several high-value, specifically identified online or digitized record groups remain. The case has advanced from an undifferentiated parentage gap to a sharply defined identity/generation problem.
+**ONLINE-EXHAUSTED for the current project scope.**
 
-## Reopening / closure rule
+The specifically identified online routes that prevented closure after the first investigation have now been pursued:
 
-Do not treat the relationship as established until at least one of the following appears:
+- full recorded probate;
+- Southampton town/land clues;
+- deed indexes;
+- guardianship abstracts;
+- New Jersey bridge records;
+- Sarah Pierson evidence;
+- Andrew Wager evidence.
 
-- a contemporary record explicitly naming the younger John as son of the intervening John;
-- a deed/property chain connecting the grandson’s inherited Southampton property to the later adult target;
-- a guardianship, church, probate, or family record that independently bridges the same identity;
-- a tightly convergent independent evidence set that excludes plausible same-name alternatives.
+No stronger relational bridge emerged.
 
-If those records are searched reasonably and no bridge is found, retain the reconstruction as a clearly labeled **analytical working hypothesis** rather than promoting it to proved parentage.
+Potentially decisive evidence may still exist in unindexed or offline deeds, local court papers, church materials, private manuscripts, or archival collections. Those are appropriate reopening triggers if they later become accessible, not reasons to continue generic searching now.
 
-## Principal sources
+## Principal source set
 
-- William S. Pelletreau, *Abstracts of Wills on File in the Surrogate’s Office, City of New York*, Liber 22, p. 411, published abstract of John Morehouse will: https://archive.org/stream/abstractswillso05kellgoog/abstractswillso05kellgoog_djvu.txt
-- George Rogers Howell, *The Early History of Southampton, L.I.*, 2nd ed. (1887), genealogy entry for Morehouse: https://ldsgenealogy.com/NY/books/The-early-history-of-Southampton-L-I-New-York-with-genealogies-2nd-ed-part-35.htm
-- Ebenezer Mack Treman and Murray E. Poole, *The History of the Treman, Tremaine, Truman Family in America* (1901), pp. 388–391: https://archive.org/stream/historyoftremant01trem/historyoftremant01trem_djvu.txt
-- Work report preserved at repository root: `John_Morehouse_LH3N-NZT_investigation.html`
+- Full recorded will and probate certificate: FamilySearch DGS 005512804, images 262–263, manuscript pages 11–13.
+- Southampton Town Records, Book 3, including 1763 Accabogue and Little South Division entries.
+- Suffolk County grantor/grantee deed indexes searched for Morehouse/Moorhouse.
+- Kenneth Scott, *Records of the Chancery Court, Province and State of New York: Guardianships, 1691–1815*.
+- George Rogers Howell, *The Early History of Southampton, L.I.* (1887), Morehouse genealogy.
+- William S. Pelletreau, published will abstract and editorial material.
+- Ebenezer Mack Treman and Murray E. Poole, *The History of the Treman, Tremaine, Truman Family in America* (1901).
+- FamilySearch indexed marriage of Pierson Morehouse and Electa Conger, Morris County, New Jersey, 15 April 1797.
+- Raw Work reports preserved at repository root.
 
 ## Final synthesis
 
-This investigation should be considered a **major success**, but not a completed parentage proof. It transformed the original question from “Who were John Morehouse’s parents?” into a much more precise and historically plausible problem: the FamilySearch tree likely skipped a generation, while later published genealogies partly preserved and partly compressed that same lineage.
+The Morehouse investigation has now reached a stable endpoint.
 
-The durable conclusion is that the 1760 testator belongs one generation above the position currently assigned to him if LH3N-NZT is indeed the grandson John. The most likely intervening father is another John Morehouse, and his wife is unknown. The remaining research task is to prove the identity bridge rather than merely to fill an empty mother field.
+The research did not produce the contemporary relational document that would convert the reconstructed father-son bridge into proof. It did, however, establish something nearly as important for the integrity of the larger project: the inherited pedigree almost certainly compresses a generation.
+
+That distinction should be preserved exactly. We should neither leave the compressed pedigree unqualified in downstream reasoning nor promote Howell's reconstruction to proven parentage.
+
+The appropriate project treatment is therefore a two-layer model:
+
+- **recorded tree:** unchanged for now;
+- **analytical overlay:** insert one strongly supported missing generation, with a probable father John Morehouse and unknown wife, and flag the younger adult John ↔ 1760 grandson identity as strongly supported rather than established.
+
+That overlay can be used in migration and pedigree analysis while protecting the formal tree from premature edits.
