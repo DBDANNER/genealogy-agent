@@ -200,6 +200,60 @@ Use the following historical core:
 
 ---
 
+## 7. Elizabeth Woodward — K8H6-SKZ
+
+### Inherited representation
+
+Elizabeth Woodward, born about 1730 in New Hampshire, wife of Eliphalet Kimball, died 4 November 1805 at Cornish, New Hampshire, with parents unresolved.
+
+### Research-indicated overlay
+
+Use the following source-qualified historical core:
+
+- K8H6-SKZ is **established / very high confidence** as the Elizabeth Woodward who married **Eliphalet Kimball at Plainfield, Connecticut, on 10 May 1759**.
+- Plainfield records name Eliphalet and Elizabeth as parents of Tammerson (1760) and John Lovel (1762).
+- **Woodward** is **strongly supported** as the surname under which Elizabeth married.
+- Later residence in **Cornish, New Hampshire**, is **strongly supported**.
+- Death **4 November 1805** is **strongly supported but derivative**.
+- Birth about 1730 in **New Hampshire** is **unsupported**. Do not use it as an established natal point in migration or geographic analysis.
+- Do not replace New Hampshire with Plainfield or Windham as a proved birthplace.
+- Father — **unknown**.
+- Mother — **unknown**.
+
+### Candidate-parent overlay
+
+The leading hypothesis is Elizabeth, daughter of **Jonathan and Sarah Woodward of Plainfield**, born 13 August 1731. Grade: **plausible, not proved**.
+
+A 1769 Plainfield probate commissioners' report for Lydia Tyler places **Eliphalet Kimball, Jonathan Woodard, and Jonathan Woodard Jr.** in the same estate matter. This is genuine contemporary FAN association and modestly strengthens the Plainfield hypothesis, but it contains no parent-child, heir, or son-in-law language.
+
+Elizabeth, daughter of **John and Mary Woodward of Windham**, born 16 September 1728, remains an unresolved same-name alternative. Her identity with the target is **unknown / still possible**; John and Mary as target's parents remain **weak** because no positive association or relational bridge was found.
+
+### Eventual tree alteration indicated
+
+At final reconciliation:
+
+- retain Elizabeth Woodward as wife of Eliphalet Kimball;
+- leave both parents unknown;
+- remove or qualify the unsupported New Hampshire birthplace unless new evidence appears;
+- do not substitute Plainfield or Windham as a proved birthplace;
+- retain Jonathan and Sarah only as a research hypothesis, not attached parents;
+- preserve the 1769 FAN association in notes/evidence, not as filiation.
+
+### Reopening triggers
+
+The case is online-exhausted for present scope. Reopen if the following become remotely accessible or newly indexed:
+
+- Plainfield vital records DGS 007898615, especially vol. 2 p. 47;
+- Plainfield deed index/books DGS 007833722, 007833723, 008141229, 008141230;
+- a relational probate/church/deed record naming Elizabeth Kimball;
+- a record definitively resolving the later life of the 1728 Windham Elizabeth.
+
+### Canonical case
+
+`docs/cases/elizabeth_woodward_kimball_identity_parentage_investigation.md`
+
+---
+
 ## Cases with no current structural overlay beyond “parents unresolved”
 
 ### Debby Phillips
@@ -216,7 +270,6 @@ Previously researched and excluded from the active broken-branch queue. No curre
 
 The following have not yet received a completed peer-reviewed broken-branch investigation and therefore have **no research overlay yet**:
 
-- Elizabeth Woodward K8H6-SKZ
 - Maria Elizabeth Loux KNV1-BCH
 - Phebe 9VWG-63Y
 - Abigail Kiles LCQS-31L
@@ -236,6 +289,7 @@ Examples:
 - The Morehouse path should include an analytically inserted Southampton generation, but that generation should be labeled strongly supported rather than established.
 - Unsupported exact birth/death points such as Nathaniel Peck's inherited 1720/1759 dates should not be used to create false geographic precision.
 - A surname correction such as Anna “Snow” should alter lineage labels in analysis even though the underlying mini-tree has not yet been edited.
+- Elizabeth Woodward's path should begin from her securely documented adult Plainfield context, not from the unsupported inherited New Hampshire birthplace, unless later evidence establishes a natal location.
 
 The goal is to let later synthesis use the best current evidence **without erasing the distinction between research conclusion and executed pedigree change**.
 
