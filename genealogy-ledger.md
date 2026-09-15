@@ -9,15 +9,16 @@ If conversation context is ever lost, a useful recovery instruction is: **“Fin
 
 `current-work.txt` is transient telemetry for the currently running Work job. **This file is the durable project-state ledger.**
 
-A separate durable analytical overlay now records tree corrections indicated by completed research without changing the mini-trees during the research cycle:
+A separate durable analytical overlay records tree corrections indicated by completed research without changing the mini-trees during the research cycle:
 
 `tree-alterations-indicated-by-broken-branch-research.md`
 
 ## Immediate state
 
+- **Elizabeth Woodward K8H6-SKZ** — two Work phases plus ordinary-Chat peer review complete. Adult identity established as Elizabeth Woodward, wife of Eliphalet Kimball; parentage online-exhausted unresolved. The inherited New Hampshire birthplace is unsupported. Jonathan and Sarah Woodward of Plainfield remain the leading plausible hypothesis only. Canonical report: `docs/cases/elizabeth_woodward_kimball_identity_parentage_investigation.md`.
 - **John Morehouse LH3N-NZT** — bridge-and-wife follow-up plus ordinary-Chat peer review complete. Missing generation strongly supported; adult LH3N-NZT ↔ 1760 grandson John strongly supported but not established; intervening father strongly supported as another predeceased John; intervening wife unknown; reasonable online road exhausted. Canonical report: `docs/cases/john_morehouse_generation_parentage_investigation.md`.
 - **Nathaniel Peck M4DP-DRQ** — three Work phases plus ordinary-Chat peer review complete. Adult nuclear family substantially stabilized; parentage online-exhausted unresolved. Canonical report: `docs/cases/nathaniel_peck_boston_identity_parentage_investigation.md`.
-- **Next planned Work case:** Elizabeth Woodward K8H6-SKZ.
+- **Next planned Work case:** Maria Elizabeth Loux KNV1-BCH.
 - Mini-trees and FamilySearch remain unchanged during the broken-branch cycle. Research-indicated corrections are carried in `tree-alterations-indicated-by-broken-branch-research.md` for downstream analysis and later reconciliation.
 
 ## Original broken-branch roster
@@ -28,12 +29,32 @@ A separate durable analytical overlay now records tree corrections indicated by 
 | 2 | Anna Snow / Anna Mahurin | LH62-G2T | **Completed — identity corrected; parentage unresolved** | Wife of David Mahurin was Anna [maiden surname unknown]. “Anna Snow” is probably contamination from David's second wife Lucy/Lucia Snow. |
 | 3 | John Morehouse | LH3N-NZT | **Completed — missing generation strongly supported; exact bridge unproved; online-exhausted** | Full 1760 will proves a grandson John and other Morehouse grandchildren. PZYK-MFG strongly appears to represent the grandfather-generation testator. Howell strongly supports an intervening predeceased John, but no contemporary record directly connects adult LH3N-NZT to the grandson or names the intervening wife. Carry a one-generation analytical overlay; do not edit the tree yet. |
 | 4 | Debby / Deborah Phillips | KCWY-YPL; later merged into KZRG-R84 | **Completed — online-exhausted unresolved parentage** | Deborah is securely wife of elder Henry Trask and mother of the 1777 Henry Trask. Her own parents remain unresolved. |
-| 5 | Elizabeth Woodward | K8H6-SKZ | **NEXT WORK CASE** | Original assertions: born 1730 New Hampshire; died 1805 Cornish, New Hampshire. Parents unresolved. |
-| 6 | Maria Elizabeth Loux | KNV1-BCH | **Queued** | Original assertion: born 1741 Stone Arabia, New York. Palatine/immigrant context likely. Parents unresolved. |
+| 5 | Elizabeth Woodward | K8H6-SKZ | **Completed — adult identity established; parentage online-exhausted unresolved** | Elizabeth Woodward married Eliphalet Kimball at Plainfield in 1759 and later belonged to the Cornish family cluster. New Hampshire birthplace unsupported. Jonathan and Sarah Woodward are the leading plausible hypothesis only; parents remain unknown. |
+| 6 | Maria Elizabeth Loux | KNV1-BCH | **NEXT WORK CASE** | Original assertion: born 1741 Stone Arabia, New York. Palatine/immigrant context likely. Parents unresolved. |
 | 7 | Phebe, surname unknown | 9VWG-63Y | **Queued** | Original assertions: born 1734 New London, Connecticut; died 1786. Natal identity unresolved. |
 | 8 | Nathaniel Peck | M4DP-DRQ | **Completed — adult nuclear family substantially stabilized; parentage online-exhausted unresolved** | Original exact 1720 birth and 1759 death are unsupported. Original Suffolk guardianship packet proves Mary as mother of Benjamin and Nathaniel Peck, late Boston cordwainer, as his deceased father. 1742 Mary Marion marriage and broader Mary-headed sibling household are strongly supported. Lydia Chaffin marriage identity remains unresolved. No parents found after probate, church, same-name, and deed review. |
 | 9 | Abigail Kiles | LCQS-31L | **Queued — partial-parent break** | Father partly represented; mother unresolved; review flag. Original assertions: 1728–1813. |
 | 10 | Elizabeth Harris | L2F1-G68 | **Queued — chronology conflict** | Original assertions: 1750–1771 Connecticut, with a child reportedly born 1772. Identity/chronology requires stabilization before parentage. |
+
+## Elizabeth Woodward K8H6-SKZ — banked outcome
+
+**Status:** Completed peer review; adult identity established; parentage online-exhausted unresolved.
+
+The defensible historical core is:
+
+- K8H6-SKZ is established at very high confidence as the **Elizabeth Woodward who married Eliphalet Kimball at Plainfield, Connecticut, on 10 May 1759**.
+- Plainfield records name Eliphalet and Elizabeth as parents of Tammerson (1760) and John Lovel (1762), strongly stabilizing the adult family.
+- **Woodward** is strongly supported as the surname under which Elizabeth married.
+- The later Cornish, New Hampshire, family trail is strongly supported; the reported death **4 November 1805** is strongly supported but derivative.
+- The inherited **New Hampshire birthplace is unsupported** and should not be used as a firm natal anchor.
+- Elizabeth, daughter of **Jonathan and Sarah Woodward of Plainfield**, born 13 August 1731, is the leading plausible candidate only.
+- Phase 2 found a 1769 Plainfield probate commissioners' report placing Eliphalet Kimball together with Jonathan Woodard and Jonathan Woodard Jr. in Lydia Tyler's estate. This is useful independent FAN evidence, not filiation.
+- Elizabeth, daughter of **John and Mary Woodward of Windham**, born 16 September 1728, remains a viable unresolved same-name control.
+- Father and mother remain **unknown**.
+
+Phase 2 closed the finite online routes left after the first peer review. The underlying Plainfield register (DGS 007898615) and relevant Plainfield deed indexes/books (DGS 007833722, 007833723, 008141229, 008141230) were precisely identified but are access-restricted. Remotely accessible Plainfield and Windham probate volumes were searched, and the 1728 Windham Elizabeth was specifically pursued without a decisive later identity. These restricted collections are future reopening triggers rather than unfinished online work.
+
+Canonical report: `docs/cases/elizabeth_woodward_kimball_identity_parentage_investigation.md`.
 
 ## John Morehouse LH3N-NZT — banked outcome
 
@@ -93,11 +114,10 @@ Previously researched separately and excluded from the active broken-branch queu
 
 ## Current planned order
 
-1. **Elizabeth Woodward K8H6-SKZ**.
-2. **Maria Elizabeth Loux KNV1-BCH**.
-3. **Phebe 9VWG-63Y**.
-4. **Abigail Kiles LCQS-31L**.
-5. **Elizabeth Harris L2F1-G68**.
+1. **Maria Elizabeth Loux KNV1-BCH**.
+2. **Phebe 9VWG-63Y**.
+3. **Abigail Kiles LCQS-31L**.
+4. **Elizabeth Harris L2F1-G68**.
 
 Queue order is provisional and may change if an investigation exposes a higher-value direct-line break or peer review changes the underlying pedigree.
 
