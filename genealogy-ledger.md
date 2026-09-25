@@ -1,7 +1,7 @@
 # Genealogy Research Ledger
 
 **Canonical working ledger for the Chat + Work genealogy project**  
-Last updated: 15 September 2026
+Last updated: 25 September 2026
 
 This file preserves the active ancestor-research queue independently of any single Chat or Work conversation. It should be updated after each completed Work investigation and ordinary-Chat peer review, and whenever a completed investigation exposes a new broken branch.
 
@@ -12,6 +12,10 @@ If conversation context is ever lost, a useful recovery instruction is: **“Fin
 A separate durable analytical overlay records tree corrections indicated by completed research without changing the mini-trees during the research cycle:
 
 `tree-alterations-indicated-by-broken-branch-research.md`
+
+The durable roadmap for analyses after the broken-branch cycle and targeted Ancestry.com evidence sweep is:
+
+`docs/phase2_analysis_plan_260925_v3.md`
 
 ## Immediate state
 
