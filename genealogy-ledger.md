@@ -5,17 +5,33 @@ Last updated: 25 September 2026
 
 This file preserves the active ancestor-research queue independently of any single Chat or Work conversation. It should be updated after each completed Work investigation and ordinary-Chat peer review, and whenever a completed investigation exposes a new broken branch.
 
-If conversation context is ever lost, a useful recovery instruction is: **“Find the genealogy ledger in the root of my ancestry GitHub repository.”**
+If conversation context is ever lost, the preferred recovery instruction is: **“Check the genealogy ledger in the root of my ancestry GitHub repository.”**
 
-`current-work.txt` is transient telemetry for the currently running Work job. **This file is the durable project-state ledger.**
+## Project recovery map
 
-A separate durable analytical overlay records tree corrections indicated by completed research without changing the mini-trees during the research cycle:
+Treat this ledger as the **single entry point** for reconstructing both current status and future direction.
 
-`tree-alterations-indicated-by-broken-branch-research.md`
+Normal recovery order:
 
-The durable roadmap for analyses after the broken-branch cycle and targeted Ancestry.com evidence sweep is:
+1. **`genealogy-ledger.md`** — durable project state: completed cases, active queue, banked conclusions, and what comes next.
+2. **`genealogy-work-guide.md`** — current operating method for designing and supervising ChatGPT Work investigations, including GitHub connector discovery, telemetry, stopping rules, and banking.
+3. **`current-work.txt`** — transient live telemetry for the currently running or most recently interrupted Work job. Read this when a Work run may be active; do not treat it as durable project history.
+4. **`tree-alterations-indicated-by-broken-branch-research.md`** — evidence-qualified analytical overlay for corrections/qualifications that should affect later analysis without silently editing the base mini-trees.
+5. **`docs/phase2_analysis_plan_260925_v4.md`** — durable roadmap for analyses after pedigree stabilization and the targeted Ancestry.com evidence sweep: composition, DNA comparison, migration maps, photos, notable ancestors, deep-history curiosities, pedigree collapse, social-history analyses, and final synthesis.
+6. **`docs/place_authority_plan_260505_v1.md`** — place-normalization/origin-classification plan needed before quantitative migration and country-of-origin analyses.
+7. **`docs/cases/`** — canonical peer-reviewed case reports. Use the specific report named in this ledger when revisiting a completed ancestor.
+8. **Root-level named Work reports** such as `*_investigation.html` and follow-up/closure reports — noncanonical raw research products retained for audit and peer-review traceability.
 
-`docs/phase2_analysis_plan_260925_v4.md`
+Repository roles:
+
+- **`DBDANNER/ancestry_repo`** is the active working repository and should normally be the first place read.
+- **`DBDANNER/genealogy-agent`** mirrors durable control documents and canonical case reports for redundancy. If an expected durable file is missing or corrupted in the active repository, check the mirror before reconstructing it from memory.
+
+Historical/legacy references should normally be consulted only if infrastructure or old design decisions must be reconstructed. In particular, the root Work guide supersedes the older method file `docs/methods/chat_work_genealogy_research_workflow.md`, and old continuity-system files are not part of the normal recovery path.
+
+The governing principle is:
+
+**ledger = where we are and what comes next; Work guide = how we investigate; overlay = what the evidence changes; analysis plan = what we will eventually analyze; case reports = why we believe each conclusion.**
 
 ## Immediate state
 
