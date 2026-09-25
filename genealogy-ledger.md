@@ -15,7 +15,7 @@ A separate durable analytical overlay records tree corrections indicated by comp
 
 The durable roadmap for analyses after the broken-branch cycle and targeted Ancestry.com evidence sweep is:
 
-`docs/phase2_analysis_plan_260925_v3.md`
+`docs/phase2_analysis_plan_260925_v4.md`
 
 ## Immediate state
 
