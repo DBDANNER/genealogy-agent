@@ -1,7 +1,7 @@
 # Genealogy Work Guide
 
 **Current operating guide for using ChatGPT Work in the Ancestry project**  
-Last updated: 13 September 2026
+Last updated: 25 September 2026
 
 If conversation context is ever lost, a useful recovery instruction is: **“Find the genealogy Work guide in the root of my ancestry GitHub repository.”**
 
@@ -215,9 +215,11 @@ The live telemetry file is:
 
 **Use the native GitHub connector directly for this file. Do not use Chrome/browser authentication or the GitHub CLI unless the native connector is genuinely unavailable.**
 
-This rule is important. In the John Morehouse session, Work attempted browser/CLI GitHub access, concluded telemetry was unavailable, and preserved state only locally. A later diagnostic showed that the native GitHub connector had in fact been available and could read/write the repository. The failure was connector selection, not GitHub itself.
+If the GitHub connector is not present in Work's initially surfaced tool list, **do not infer that it is unavailable**. First explicitly search/discover the available tools/connectors for GitHub. Use the native GitHub connector if discovery finds it. Treat the connector as genuinely unavailable only after that discovery step fails.
 
-Future prompts should make the connector choice explicit.
+This rule is important. In the John Morehouse session, Work attempted browser/CLI GitHub access, concluded telemetry was unavailable, and preserved state only locally. A later diagnostic showed that the native GitHub connector had in fact been available and could read/write the repository. In the Maria Elizabeth Loux session, the GitHub connector was again omitted from the initially surfaced tools but became available as soon as Work was instructed to search for it. These were connector-selection/tool-surfacing issues, not GitHub failures.
+
+Future prompts should therefore make both steps explicit: **prefer the native GitHub connector, and if it is not initially visible, discover/search for it before using any fallback.**
 
 Overwrite `current-work.txt` rather than creating a new telemetry file for each run.
 
