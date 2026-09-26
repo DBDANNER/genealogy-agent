@@ -39,7 +39,8 @@ The governing principle is:
 - **John Morehouse LH3N-NZT** — bridge-and-wife follow-up plus ordinary-Chat peer review complete. Missing generation strongly supported; adult LH3N-NZT ↔ 1760 grandson John strongly supported but not established; intervening father strongly supported as another predeceased John; intervening wife unknown; reasonable online road exhausted. Canonical report: `docs/cases/john_morehouse_generation_parentage_investigation.md`.
 - **Nathaniel Peck M4DP-DRQ** — three Work phases plus ordinary-Chat peer review complete. Adult nuclear family substantially stabilized; parentage online-exhausted unresolved. Canonical report: `docs/cases/nathaniel_peck_boston_identity_parentage_investigation.md`.
 - **Maria Elizabeth Loux KNV1-BCH** — two Work phases plus ordinary-Chat peer review complete. Adult identity established as Maria Elisabeth Loux/Laux, wife of Adam Huthmacher; Loux/Laux premarital surname strongly supported; inherited about-1741 Stone Arabia birth unsupported; parentage online-exhausted unresolved. Johann Henrich Laux + Anna Margaretha are the leading plausible natal household only. Canonical report: `docs/cases/maria_elizabeth_loux_huthmacher_identity_parentage_investigation.md`.
-- **Next planned Work case:** Phebe 9VWG-63Y.
+- **Phebe 9VWG-63Y** — one Work investigation plus ordinary-Chat peer review complete. Adult wife/mother identity strongly supported at very high confidence as Phebe, wife of Jonathan Hamilton in Horton Township and mother of Sarah Hamilton born 5 May 1762. Maiden surname and parents remain unknown; inherited about-1734 New London birth and 26 July 1786 death are unsupported; Rathbone is a weak unsourced GEDCOM claim. Canonical report: `docs/cases/phebe_hamilton_9VWG-63Y_identity_parentage_investigation.md`.
+- **Next planned Work case:** Abigail Kiles LCQS-31L.
 - Mini-trees and FamilySearch remain unchanged during the broken-branch cycle. Research-indicated corrections are carried in `tree-alterations-indicated-by-broken-branch-research.md` for downstream analysis and later reconciliation.
 
 ## Original broken-branch roster
@@ -52,10 +53,41 @@ The governing principle is:
 | 4 | Debby / Deborah Phillips | KCWY-YPL; later merged into KZRG-R84 | **Completed — online-exhausted unresolved parentage** | Deborah is securely wife of elder Henry Trask and mother of the 1777 Henry Trask. Her own parents remain unresolved. |
 | 5 | Elizabeth Woodward | K8H6-SKZ | **Completed — adult identity established; parentage online-exhausted unresolved** | Elizabeth Woodward married Eliphalet Kimball at Plainfield in 1759 and later belonged to the Cornish family cluster. New Hampshire birthplace unsupported. Jonathan and Sarah Woodward are the leading plausible hypothesis only; parents remain unknown. |
 | 6 | Maria Elizabeth Loux | KNV1-BCH | **Completed — adult identity established; parentage online-exhausted unresolved** | Maria Elisabeth married Adam Huthmacher in 1760 and is documented with four Stone Arabia children 1762–1769. Loux/Laux is strongly supported as her premarital surname. About-1741 Stone Arabia birth is unsupported. Johann Henrich Laux + Anna Margaretha are the leading plausible candidate household only; parents remain unknown. |
-| 7 | Phebe, surname unknown | 9VWG-63Y | **Queued** | Original assertions: born 1734 New London, Connecticut; died 1786. Natal identity unresolved. |
+| 7 | Phebe, surname unknown | 9VWG-63Y | **Completed — adult wife/mother identity strongly supported; maiden surname and parentage online-exhausted unresolved** | Strongly supported as wife of Jonathan Hamilton in Horton and mother of Sarah Hamilton born 5 May 1762. About-1734 New London birth and 26 July 1786 death are unsupported. Rathbone is weak/unsourced; parents remain unknown. |
 | 8 | Nathaniel Peck | M4DP-DRQ | **Completed — adult nuclear family substantially stabilized; parentage online-exhausted unresolved** | Original exact 1720 birth and 1759 death are unsupported. Original Suffolk guardianship packet proves Mary as mother of Benjamin and Nathaniel Peck, late Boston cordwainer, as his deceased father. 1742 Mary Marion marriage and broader Mary-headed sibling household are strongly supported. Lydia Chaffin marriage identity remains unresolved. No parents found after probate, church, same-name, and deed review. |
 | 9 | Abigail Kiles | LCQS-31L | **Queued — partial-parent break** | Father partly represented; mother unresolved; review flag. Original assertions: 1728–1813. |
 | 10 | Elizabeth Harris | L2F1-G68 | **Queued — chronology conflict** | Original assertions: 1750–1771 Connecticut, with a child reportedly born 1772. Identity/chronology requires stabilization before parentage. |
+
+## Phebe 9VWG-63Y — banked outcome
+
+**Status:** Completed peer review; adult wife/mother identity strongly supported; maiden surname and parentage online-exhausted unresolved.
+
+The defensible historical core is:
+
+- 9VWG-63Y is **strongly supported / very high confidence** as **Phebe, wife of Jonathan Hamilton in Horton Township, Kings County, Nova Scotia**, and mother of **Sarah Hamilton born 5 May 1762**.
+- The strongest record located is the FamilySearch legacy Nova Scotia birth/baptism index naming Jonathan Hamilton and Phebe as Sarah's parents at Horton (ARK 1:1:XL5T-XYP; DGS 008131527; film 928972; batch C58420-1).
+- Because the exact original image has not yet been tied to that index entry, ordinary-Chat peer review does not upgrade the narrow adult identity to fully established.
+- A 1918 genealogy citing the Horton town book independently supports a Jonathan-and-Phebe household for a Sarah Hamilton born 24 March 1769.
+- Jonathan Hamilton is strongly supported as husband.
+- Sarah 1762 is strongly supported as child.
+- Sarah 1769 is strongly supported through later secondary evidence.
+- James 1764 is plausible as Phebe's child; Samuel 1767 and Catharine 1771 remain unknown.
+- Lavina 1782 is incompatible with the older Jonathan/Phebe structure as presently framed if Jonathan died in 1778.
+- Birth **about 1734** is unsupported.
+- Birthplace **New London, Connecticut** is unsupported / unknown.
+- Death **26 July 1786** is unsupported / unknown.
+- Maiden surname **Rathbone** is weak and unsupported; it derives from a recent unsourced GEDCOM profile.
+- Proposed parents **Joshua Rathbone + Jemima Baldwin** are not supported.
+- A real Phebe Harris born at New London in 1736 is an unbridged search candidate only.
+- Father and mother remain **unknown**.
+
+The investigation also identified a critical same-name control: Jonathan Hamilton's daughter **Phebe Hamilton, wife of Peter Bishop**, is a different woman from the target wife Phebe.
+
+No online marriage, probate, deed, dower, burial, church, widowhood, or child record supplied a maiden surname or natal-family bridge. The reasonable finite online road is exhausted for present project scope.
+
+For later migration and origin-composition analysis, begin with Phebe's strongly supported adult Horton context. Do not use New London as a proved natal location, do not assign Rathbone ancestry, and do not infer a specific European-origin contribution through an unproved natal family.
+
+Canonical report: `docs/cases/phebe_hamilton_9VWG-63Y_identity_parentage_investigation.md`.
 
 ## Maria Elizabeth Loux KNV1-BCH — banked outcome
 
@@ -159,9 +191,8 @@ Previously researched separately and excluded from the active broken-branch queu
 
 ## Current planned order
 
-1. **Phebe 9VWG-63Y**.
-2. **Abigail Kiles LCQS-31L**.
-3. **Elizabeth Harris L2F1-G68**.
+1. **Abigail Kiles LCQS-31L**.
+2. **Elizabeth Harris L2F1-G68**.
 
 Queue order is provisional and may change if an investigation exposes a higher-value direct-line break or peer review changes the underlying pedigree.
 
