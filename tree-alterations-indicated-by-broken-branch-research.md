@@ -1,7 +1,7 @@
 # Tree Alterations Indicated by Broken-Branch Research
 
 **Analytical overlay — not an edited pedigree**  
-Last updated: 15 September 2026
+Last updated: 26 September 2026
 
 ## Purpose
 
@@ -254,6 +254,65 @@ The case is online-exhausted for present scope. Reopen if the following become r
 
 ---
 
+## 8. Maria Elisabeth Loux/Laux Huthmacher — KNV1-BCH
+
+### Inherited representation
+
+Maria Elizabeth Loux, born about 1741 at Stone Arabia, New York, wife of Adam Huthmacher, with parentage unresolved and prior tree history attaching candidate Loux parents.
+
+### Research-indicated overlay
+
+Use the following source-qualified historical core:
+
+- KNV1-BCH is **established / very high confidence** as **Maria Elisabeth Loux/Laux**, wife of **Adam Huthmacher/Hutmacher**.
+- Marriage **28 October 1760** is strongly supported.
+- Four Stone Arabia children are documented to the couple from 1762 through 1769.
+- **Loux/Laux** is **strongly supported** as her premarital surname; exact spelling is source-dependent.
+- Birth **about 1741** — **unsupported**.
+- Birthplace **Stone Arabia, New York** — **unsupported**. Stone Arabia is a secure adult church context, not a proved natal place.
+- Father — **unknown**.
+- Mother — **unknown**.
+
+### Candidate-parent overlay
+
+The leading current hypothesis is **Johann Henrich Laux + Anna Margaretha**. Grade: **plausible only / not proved**.
+
+A derivative reconstruction places Peter, Maria, and Maria Barbara in this household. The fit is meaningful because the 1762 Huthmacher baptism names sponsor Pieter as the unmarried son of Henrich Laux Sr., and a 1765 baptism includes Barbara Laux.
+
+This is FAN evidence, not filiation. The proposed Maria and Peter lack independent relational records, and the derivative household may itself have been reconstructed partly from sponsor evidence. Do not treat it as independent corroboration.
+
+The previously attached **Johann Adam Laux + Catherine Elisabeth Schnell** parentage is **contradicted**: their separately documented daughter Elisabeth Barbara married Jacob Seever in 1766.
+
+The **Johan Wilhelm Laucks + Maria Margaretha Krembs** household is also excluded as the target's parent family because their daughter Elizabetha W. married Jacob Epple in 1769. Wilhelm's daughter Catharina remains relevant only as a sponsor/FAN associate.
+
+### Eventual tree alteration indicated
+
+At final reconciliation:
+
+- retain Maria Elisabeth Loux/Laux as wife of Adam Huthmacher;
+- retain the strongly supported 1760 marriage and documented 1762–1769 child cluster;
+- leave both parents unknown;
+- remove/qualify the unsupported about-1741 birth and Stone Arabia birthplace unless new evidence appears;
+- do not restore Johann Adam Laux + Catherine Elisabeth Schnell;
+- do not attach Johann Henrich Laux + Anna Margaretha;
+- preserve the Henrich Laux sponsor-household hypothesis in notes/evidence, not as parentage;
+- do not assign a specific European-origin contribution through the unproved candidate household.
+
+### Reopening triggers
+
+The case is online-exhausted for present scope. Reopen for:
+
+- pre-1787 Albany/Tryon/statewide probate or estate material naming Maria Elisabeth Huthmacher in a Loux/Laux family;
+- an original or near-contemporary Stone Arabia church entry giving father, parents, or explicit sibling relationship;
+- a deed, partition, release, mortgage, or estate distribution linking Adam/Maria Elisabeth Huthmacher to Henrich, Peter, Barbara, or another specific Loux household;
+- another near-contemporary relational source such as a family Bible, church membership record, or military/pension affidavit.
+
+### Canonical case
+
+`docs/cases/maria_elizabeth_loux_huthmacher_identity_parentage_investigation.md`
+
+---
+
 ## Cases with no current structural overlay beyond “parents unresolved”
 
 ### Debby Phillips
@@ -270,7 +329,6 @@ Previously researched and excluded from the active broken-branch queue. No curre
 
 The following have not yet received a completed peer-reviewed broken-branch investigation and therefore have **no research overlay yet**:
 
-- Maria Elizabeth Loux KNV1-BCH
 - Phebe 9VWG-63Y
 - Abigail Kiles LCQS-31L
 - Elizabeth Harris L2F1-G68
