@@ -1,7 +1,7 @@
 # Genealogy Research Ledger
 
 **Canonical working ledger for the Chat + Work genealogy project**  
-Last updated: 25 September 2026
+Last updated: 26 September 2026
 
 This file preserves the active ancestor-research queue independently of any single Chat or Work conversation. It should be updated after each completed Work investigation and ordinary-Chat peer review, and whenever a completed investigation exposes a new broken branch.
 
@@ -38,7 +38,8 @@ The governing principle is:
 - **Elizabeth Woodward K8H6-SKZ** — two Work phases plus ordinary-Chat peer review complete. Adult identity established as Elizabeth Woodward, wife of Eliphalet Kimball; parentage online-exhausted unresolved. The inherited New Hampshire birthplace is unsupported. Jonathan and Sarah Woodward of Plainfield remain the leading plausible hypothesis only. Canonical report: `docs/cases/elizabeth_woodward_kimball_identity_parentage_investigation.md`.
 - **John Morehouse LH3N-NZT** — bridge-and-wife follow-up plus ordinary-Chat peer review complete. Missing generation strongly supported; adult LH3N-NZT ↔ 1760 grandson John strongly supported but not established; intervening father strongly supported as another predeceased John; intervening wife unknown; reasonable online road exhausted. Canonical report: `docs/cases/john_morehouse_generation_parentage_investigation.md`.
 - **Nathaniel Peck M4DP-DRQ** — three Work phases plus ordinary-Chat peer review complete. Adult nuclear family substantially stabilized; parentage online-exhausted unresolved. Canonical report: `docs/cases/nathaniel_peck_boston_identity_parentage_investigation.md`.
-- **Next planned Work case:** Maria Elizabeth Loux KNV1-BCH.
+- **Maria Elizabeth Loux KNV1-BCH** — two Work phases plus ordinary-Chat peer review complete. Adult identity established as Maria Elisabeth Loux/Laux, wife of Adam Huthmacher; Loux/Laux premarital surname strongly supported; inherited about-1741 Stone Arabia birth unsupported; parentage online-exhausted unresolved. Johann Henrich Laux + Anna Margaretha are the leading plausible natal household only. Canonical report: `docs/cases/maria_elizabeth_loux_huthmacher_identity_parentage_investigation.md`.
+- **Next planned Work case:** Phebe 9VWG-63Y.
 - Mini-trees and FamilySearch remain unchanged during the broken-branch cycle. Research-indicated corrections are carried in `tree-alterations-indicated-by-broken-branch-research.md` for downstream analysis and later reconciliation.
 
 ## Original broken-branch roster
@@ -50,11 +51,35 @@ The governing principle is:
 | 3 | John Morehouse | LH3N-NZT | **Completed — missing generation strongly supported; exact bridge unproved; online-exhausted** | Full 1760 will proves a grandson John and other Morehouse grandchildren. PZYK-MFG strongly appears to represent the grandfather-generation testator. Howell strongly supports an intervening predeceased John, but no contemporary record directly connects adult LH3N-NZT to the grandson or names the intervening wife. Carry a one-generation analytical overlay; do not edit the tree yet. |
 | 4 | Debby / Deborah Phillips | KCWY-YPL; later merged into KZRG-R84 | **Completed — online-exhausted unresolved parentage** | Deborah is securely wife of elder Henry Trask and mother of the 1777 Henry Trask. Her own parents remain unresolved. |
 | 5 | Elizabeth Woodward | K8H6-SKZ | **Completed — adult identity established; parentage online-exhausted unresolved** | Elizabeth Woodward married Eliphalet Kimball at Plainfield in 1759 and later belonged to the Cornish family cluster. New Hampshire birthplace unsupported. Jonathan and Sarah Woodward are the leading plausible hypothesis only; parents remain unknown. |
-| 6 | Maria Elizabeth Loux | KNV1-BCH | **NEXT WORK CASE** | Original assertion: born 1741 Stone Arabia, New York. Palatine/immigrant context likely. Parents unresolved. |
+| 6 | Maria Elizabeth Loux | KNV1-BCH | **Completed — adult identity established; parentage online-exhausted unresolved** | Maria Elisabeth married Adam Huthmacher in 1760 and is documented with four Stone Arabia children 1762–1769. Loux/Laux is strongly supported as her premarital surname. About-1741 Stone Arabia birth is unsupported. Johann Henrich Laux + Anna Margaretha are the leading plausible candidate household only; parents remain unknown. |
 | 7 | Phebe, surname unknown | 9VWG-63Y | **Queued** | Original assertions: born 1734 New London, Connecticut; died 1786. Natal identity unresolved. |
 | 8 | Nathaniel Peck | M4DP-DRQ | **Completed — adult nuclear family substantially stabilized; parentage online-exhausted unresolved** | Original exact 1720 birth and 1759 death are unsupported. Original Suffolk guardianship packet proves Mary as mother of Benjamin and Nathaniel Peck, late Boston cordwainer, as his deceased father. 1742 Mary Marion marriage and broader Mary-headed sibling household are strongly supported. Lydia Chaffin marriage identity remains unresolved. No parents found after probate, church, same-name, and deed review. |
 | 9 | Abigail Kiles | LCQS-31L | **Queued — partial-parent break** | Father partly represented; mother unresolved; review flag. Original assertions: 1728–1813. |
 | 10 | Elizabeth Harris | L2F1-G68 | **Queued — chronology conflict** | Original assertions: 1750–1771 Connecticut, with a child reportedly born 1772. Identity/chronology requires stabilization before parentage. |
+
+## Maria Elizabeth Loux KNV1-BCH — banked outcome
+
+**Status:** Completed peer review; adult identity established; parentage online-exhausted unresolved.
+
+The defensible historical core is:
+
+- KNV1-BCH is established at very high confidence as **Maria Elisabeth Loux/Laux**, wife of **Adam Huthmacher/Hutmacher**.
+- Marriage **28 October 1760** is strongly supported by parallel Stone Arabia-area indexed/transcribed entries.
+- Four children are documented to Adam and Maria Elisabeth in Stone Arabia church material: Maria Catharina (1762), Henricus (1765), Maria Marlena (1768), and Adam (1769).
+- **Loux/Laux** is strongly supported as Maria Elisabeth's premarital surname, with spelling variants including Loucks, Lauxen, Laux, Lauxin, and Lauchs.
+- The inherited birth **about 1741** is unsupported.
+- The inherited **Stone Arabia birthplace** is unsupported; Stone Arabia is securely part of her adult church context, not proved natal geography.
+- The formerly attached **Johann Adam Laux + Catherine Elisabeth Schnell** parentage is contradicted because their separately documented daughter Elisabeth Barbara married Jacob Seever in 1766.
+- The Johan Wilhelm Laucks + Maria Margaretha Krembs household is also excluded as the target's parent family because their daughter Elizabetha W. married Jacob Epple in 1769.
+- The leading remaining hypothesis is the household of **Johann Henrich Laux + Anna Margaretha**. A derivative reconstruction places Peter, Maria, and Maria Barbara there, aligning with Huthmacher baptismal sponsors including Pieter, explicitly called son of Henrich Laux Sr., and Barbara Laux.
+- That candidate household remains **plausible only**. The proposed Maria and Peter lack independent relational records, and the derivative reconstruction may itself rely on the same sponsor network, creating circularity risk.
+- Father and mother remain **unknown**.
+
+Phase 2 pursued the finite sponsor-household, probate/estate, land/property, church, and Revolutionary-era relational routes. No accessible will, administration, heir list, deed, partition, church entry, or military/claim record supplied a parent-child or sibling bridge. Pre-1787 Albany/Tryon/statewide probate or estate material remains the principal future reopening trigger, along with an original relational church entry or heir/family conveyance.
+
+For later migration and origin-composition work, do not assign a specific European origin through the unproved Johann Henrich Laux household. Begin from Maria Elisabeth's securely documented adult Stone Arabia context and carry her natal parentage/origin as unresolved unless new evidence appears.
+
+Canonical report: `docs/cases/maria_elizabeth_loux_huthmacher_identity_parentage_investigation.md`.
 
 ## Elizabeth Woodward K8H6-SKZ — banked outcome
 
@@ -134,10 +159,9 @@ Previously researched separately and excluded from the active broken-branch queu
 
 ## Current planned order
 
-1. **Maria Elizabeth Loux KNV1-BCH**.
-2. **Phebe 9VWG-63Y**.
-3. **Abigail Kiles LCQS-31L**.
-4. **Elizabeth Harris L2F1-G68**.
+1. **Phebe 9VWG-63Y**.
+2. **Abigail Kiles LCQS-31L**.
+3. **Elizabeth Harris L2F1-G68**.
 
 Queue order is provisional and may change if an investigation exposes a higher-value direct-line break or peer review changes the underlying pedigree.
 
