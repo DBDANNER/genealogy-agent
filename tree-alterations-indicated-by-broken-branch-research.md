@@ -313,6 +313,70 @@ The case is online-exhausted for present scope. Reopen for:
 
 ---
 
+## 9. Phebe, wife of Jonathan Hamilton — 9VWG-63Y
+
+### Inherited representation
+
+Phebe, born about 1734 in New London, Connecticut, died 26 July 1786, wife of Jonathan Hamilton, with no secure maiden surname or parents.
+
+### Research-indicated overlay
+
+Use the following source-qualified historical core:
+
+- 9VWG-63Y is **strongly supported / very high confidence** as **Phebe, wife of Jonathan Hamilton in Horton Township, Kings County, Nova Scotia**, and mother of **Sarah Hamilton born 5 May 1762**.
+- The 1762 Sarah relationship is strongly supported by a FamilySearch legacy Nova Scotia birth/baptism index naming Jonathan and Phebe as parents. Because the exact original image is not yet tied down, do not upgrade the adult identity to fully established.
+- Jonathan Hamilton as husband — **strongly supported**.
+- Sarah 1762 as child — **strongly supported**.
+- Sarah 1769 as child — **strongly supported through later secondary evidence**.
+- James 1764 as Phebe's child — **plausible**.
+- Samuel 1767 and Catharine 1771 — **unknown** as Phebe's children on currently reviewed evidence.
+- Lavina 1782 — **contradicted as presently framed** within the older Jonathan/Phebe structure if Jonathan died in 1778.
+- Birth **about 1734** — **unsupported / unknown**.
+- Birthplace **New London, Connecticut** — **unsupported / unknown**.
+- Death **26 July 1786** — **unsupported / unknown**.
+- Maiden surname — **unknown**.
+- Father — **unknown**.
+- Mother — **unknown**.
+
+### Maiden-surname and candidate-family overlay
+
+**Rathbone** is **weak / unsupported**. The claim and proposed parents **Joshua Rathbone + Jemima Baldwin** descend from a recent unsourced GEDCOM profile and are not independently bridged to the target.
+
+A real **Phebe Harris**, born at New London in 1736 to Joseph Harris Jr. and Phebe Holt, is only an unbridged chronological/geographic search candidate. Do not attach her or her parents.
+
+Keep explicitly separate Jonathan Hamilton's daughter **Phebe Hamilton, wife of Peter Bishop**, from the target wife Phebe.
+
+### Eventual tree alteration indicated
+
+At final reconciliation:
+
+- retain Phebe as the strongly supported wife of Jonathan Hamilton;
+- retain Sarah 1762 as the strongest child relationship;
+- retain Sarah 1769 as strongly supported through secondary evidence;
+- review James, Samuel, Catharine, and Lavina individually rather than preserving the whole child cluster as a unit;
+- represent the ancestor analytically as **Phebe [surname unknown]**;
+- remove or qualify the unsupported about-1734 New London birth and 26 July 1786 death;
+- do not add Rathbone;
+- do not add Rathbone parents;
+- do not assign a specific European-origin contribution through an unproved natal family.
+
+### Reopening triggers
+
+The case is online-exhausted for present scope. Reopen for:
+
+- the exact original Horton record underlying the 1762 index;
+- Nova Scotia Archives Horton Township Records, MG4 volume 74, microfilms 12599, 12600, 15038;
+- Library and Archives Canada Horton material, including MG9-B9-24 reel H-1806 or MG9-B9-7 reel C-3027 when a page-specific lead exists;
+- probate/estate or land/dower records for the older Jonathan Hamilton naming wife/widow Phebe;
+- a New London marriage, probate, deed, or church record explicitly linking a birth-surname Phebe to Jonathan;
+- a child record explicitly naming mother's maiden surname.
+
+### Canonical case
+
+`docs/cases/phebe_hamilton_9VWG-63Y_identity_parentage_investigation.md`
+
+---
+
 ## Cases with no current structural overlay beyond “parents unresolved”
 
 ### Debby Phillips
@@ -329,7 +393,6 @@ Previously researched and excluded from the active broken-branch queue. No curre
 
 The following have not yet received a completed peer-reviewed broken-branch investigation and therefore have **no research overlay yet**:
 
-- Phebe 9VWG-63Y
 - Abigail Kiles LCQS-31L
 - Elizabeth Harris L2F1-G68
 
