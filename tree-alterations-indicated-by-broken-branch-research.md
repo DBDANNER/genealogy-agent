@@ -377,6 +377,81 @@ The case is online-exhausted for present scope. Reopen for:
 
 ---
 
+## 10. Abigail Kils/Kiles Paul — LCQS-31L
+
+### Inherited representation
+
+Abigail Kiles, born about 1728 in Dighton, Massachusetts, died 1813, with an attached father PQ4Z-HLZ and mother unresolved.
+
+### Research-indicated overlay
+
+Use the following source-qualified historical core:
+
+- LCQS-31L is **established / very high confidence** as **Abigal Kils**, bride of **James Paull** in the Dighton marriage intention dated 5 December 1747.
+- Premarital **Kils** is **established** in the contemporary record; **Kiles** is a strongly supported normalized/variant spelling.
+- James Paul/Paull is the established historical husband; current FamilySearch spouse-PID reconciliation remains separate work.
+- Edward 1749 and James 1750 are established children; the later child cluster is strongly supported but individual source strength varies.
+- Birth about **1727–1728** — **strongly supported**.
+- Exact **1728** — **plausible, not established**.
+- Birthplace **Dighton** — **unknown**.
+- Death **20 April 1813** — **established**.
+- Indexed death place **Tinmouth** should remain distinct from Wells residence/family context and Danby burial context.
+- Current father **PQ4Z-HLZ** — **contradicted as represented**.
+- Father — **unknown**.
+- Mother — **unknown**.
+
+### Candidate-parent overlay
+
+**Sarah Talbot Kiles Bartlett** is strongly supported as Samuel Talbot's daughter, already a Kiles widow by 1738 and later wife of Richard Bartlett.
+
+Her first Kiles husband remains unidentified.
+
+Sarah and the unidentified husband are **plausible candidate parents only** because surname, locality, and chronology are compatible. No reviewed relational source identifies Abigail as their daughter, heir, ward, stepchild, or sibling of another child.
+
+Do not attach either candidate.
+
+### Eventual tree alteration indicated
+
+At final reconciliation:
+
+- retain Abigail Kils/Kiles as wife of James Paul/Paull;
+- preserve the original **Abigal Kils** spelling in source notes;
+- retain the established early children;
+- use approximately 1727–1728 for chronology without asserting exact 1728;
+- do not assert Dighton as birthplace without new evidence;
+- retain death 20 April 1813 and keep Tinmouth/Wells/Danby place roles distinct;
+- remove or reject PQ4Z-HLZ as father unless entirely new relational evidence appears;
+- leave both parents unknown;
+- do not attach Sarah Talbot Kiles Bartlett;
+- do not attach the FamilySearch surname-only placeholder G3WB-9JZ;
+- reconcile the competing James Paul/Paull profiles before later child-structure edits;
+- do not assign a specific European-origin contribution through the unproved candidate household.
+
+### Reopening / Ancestry-sweep trigger
+
+High-priority later Ancestry.com sweep item:
+
+- Samuel Talbot probate, Bristol County, 1738
+- Ancestry collection 48167
+- image `BristolCoMAProbate1-000509-274`
+- pId 227373
+
+Inspect and transcribe the full original image, not only the derivative Sarah wording, and check every person/clause for Kiles descendants or grandchildren.
+
+Other reopening triggers:
+
+- newly indexed/image-searchable Kiles probate, guardianship, heir, dower, or deed material;
+- identification of Sarah's first Kiles husband by a contemporary source;
+- Bartlett material naming Kiles stepchildren;
+- Paul material naming Abigail's natal kin;
+- contemporary Dighton church, town-family, Bible, or guardianship evidence with explicit relationship wording.
+
+### Canonical case
+
+`docs/cases/abigail_kils_paull_identity_parentage_investigation.md`
+
+---
+
 ## Cases with no current structural overlay beyond “parents unresolved”
 
 ### Debby Phillips
@@ -393,7 +468,6 @@ Previously researched and excluded from the active broken-branch queue. No curre
 
 The following have not yet received a completed peer-reviewed broken-branch investigation and therefore have **no research overlay yet**:
 
-- Abigail Kiles LCQS-31L
 - Elizabeth Harris L2F1-G68
 
 Add entries only after ordinary-Chat peer review of each completed Work investigation.
