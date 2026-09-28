@@ -40,7 +40,8 @@ The governing principle is:
 - **Nathaniel Peck M4DP-DRQ** — three Work phases plus ordinary-Chat peer review complete. Adult nuclear family substantially stabilized; parentage online-exhausted unresolved. Canonical report: `docs/cases/nathaniel_peck_boston_identity_parentage_investigation.md`.
 - **Maria Elizabeth Loux KNV1-BCH** — two Work phases plus ordinary-Chat peer review complete. Adult identity established as Maria Elisabeth Loux/Laux, wife of Adam Huthmacher; Loux/Laux premarital surname strongly supported; inherited about-1741 Stone Arabia birth unsupported; parentage online-exhausted unresolved. Johann Henrich Laux + Anna Margaretha are the leading plausible natal household only. Canonical report: `docs/cases/maria_elizabeth_loux_huthmacher_identity_parentage_investigation.md`.
 - **Phebe 9VWG-63Y** — one Work investigation plus ordinary-Chat peer review complete. Adult wife/mother identity strongly supported at very high confidence as Phebe, wife of Jonathan Hamilton in Horton Township and mother of Sarah Hamilton born 5 May 1762. Maiden surname and parents remain unknown; inherited about-1734 New London birth and 26 July 1786 death are unsupported; Rathbone is a weak unsourced GEDCOM claim. Canonical report: `docs/cases/phebe_hamilton_9VWG-63Y_identity_parentage_investigation.md`.
-- **Next planned Work case:** Abigail Kiles LCQS-31L.
+- **Abigail Kiles LCQS-31L** — two Work phases plus ordinary-Chat peer review complete. Adult identity and premarital surname established as Abigal Kils/Kiles, wife of James Paul/Paull. Inherited father PQ4Z-HLZ contradicted as represented; true father and mother remain unknown. Sarah Talbot Kiles Bartlett and her unidentified first Kiles husband remain plausible candidate parents only. Present accessible online pass exhausted. Canonical report: `docs/cases/abigail_kils_paull_identity_parentage_investigation.md`.
+- **Next planned Work case:** Elizabeth Harris L2F1-G68.
 - Mini-trees and FamilySearch remain unchanged during the broken-branch cycle. Research-indicated corrections are carried in `tree-alterations-indicated-by-broken-branch-research.md` for downstream analysis and later reconciliation.
 
 ## Original broken-branch roster
@@ -55,8 +56,37 @@ The governing principle is:
 | 6 | Maria Elizabeth Loux | KNV1-BCH | **Completed — adult identity established; parentage online-exhausted unresolved** | Maria Elisabeth married Adam Huthmacher in 1760 and is documented with four Stone Arabia children 1762–1769. Loux/Laux is strongly supported as her premarital surname. About-1741 Stone Arabia birth is unsupported. Johann Henrich Laux + Anna Margaretha are the leading plausible candidate household only; parents remain unknown. |
 | 7 | Phebe, surname unknown | 9VWG-63Y | **Completed — adult wife/mother identity strongly supported; maiden surname and parentage online-exhausted unresolved** | Strongly supported as wife of Jonathan Hamilton in Horton and mother of Sarah Hamilton born 5 May 1762. About-1734 New London birth and 26 July 1786 death are unsupported. Rathbone is weak/unsourced; parents remain unknown. |
 | 8 | Nathaniel Peck | M4DP-DRQ | **Completed — adult nuclear family substantially stabilized; parentage online-exhausted unresolved** | Original exact 1720 birth and 1759 death are unsupported. Original Suffolk guardianship packet proves Mary as mother of Benjamin and Nathaniel Peck, late Boston cordwainer, as his deceased father. 1742 Mary Marion marriage and broader Mary-headed sibling household are strongly supported. Lydia Chaffin marriage identity remains unresolved. No parents found after probate, church, same-name, and deed review. |
-| 9 | Abigail Kiles | LCQS-31L | **Queued — partial-parent break** | Father partly represented; mother unresolved; review flag. Original assertions: 1728–1813. |
+| 9 | Abigail Kiles | LCQS-31L | **Completed — adult identity/surname established; inherited father contradicted; true parents online-exhausted unresolved** | Contemporary Dighton record names bride Abigal Kils in 1747. About 1727–28 birth strongly supported; birthplace unknown; death 20 Apr 1813 established. PQ4Z-HLZ is unsupported/contradicted as father. Sarah Talbot Kiles Bartlett + unidentified first Kiles husband remain plausible only; parents unknown. |
 | 10 | Elizabeth Harris | L2F1-G68 | **Queued — chronology conflict** | Original assertions: 1750–1771 Connecticut, with a child reportedly born 1772. Identity/chronology requires stabilization before parentage. |
+
+## Abigail Kiles LCQS-31L — banked outcome
+
+**Status:** Completed peer review; adult identity and premarital surname established; inherited father contradicted; true parents online-exhausted unresolved.
+
+The defensible historical core is:
+
+- LCQS-31L is **established / very high confidence** as the woman recorded at Dighton, Massachusetts, in the 5 December 1747 marriage intention as **Abigal Kils**, prospective wife of **James Paull**.
+- Premarital surname **Kils** is established in the contemporary record; **Kiles** is a strongly supported normalized/variant spelling.
+- James Paul/Paull is the established historical husband, although current FamilySearch spouse PIDs remain conflated and should be reconciled separately.
+- Edward Paul (1749) and James Paul (1750) are established children from Dighton parent-naming records; the later child cluster is strongly supported but was not uniformly re-proved.
+- Birth approximately **1727–1728** is strongly supported from age-at-death evidence; exact 1728 is plausible, not established.
+- **Dighton birthplace is unknown** and should not be inferred from the first adult record.
+- Death **20 April 1813** is established. Tinmouth is the indexed death place; Wells is family/residence context; Danby is burial context.
+- The currently attached father **Kiles PQ4Z-HLZ** is **contradicted as represented**. He is a modern placeholder without a relational bridge, and his attached Virginia source is unrelated.
+- Father remains **unknown**.
+- Mother remains **unknown**.
+- **Sarah Talbot Kiles Bartlett** is strongly supported as a daughter of Samuel Talbot who was already a Kiles widow in 1738 and remarried Richard Bartlett in 1739.
+- Sarah and her unidentified first Kiles husband are chronologically/geographically compatible with being Abigail's parents, but no probate, guardianship, deed, church, town, Bartlett-stepfamily, or backward-Paul record connects Abigail to them.
+- Sarah as mother: **plausible only**.
+- Her unidentified first Kiles husband as father: **plausible only**.
+
+Phase 2 tested the last concrete Dighton Kils/Kiles household route and found no defensible parental bridge. The present accessible online road is exhausted for this broken-branch cycle.
+
+A specifically identified original **Samuel Talbot 1738 probate image on Ancestry** remains a high-priority item for the later targeted Ancestry.com evidence sweep: collection 48167, image `BristolCoMAProbate1-000509-274`, pId 227373. It should be fully transcribed to verify all persons and clauses, but its current inaccessibility does not justify another broad Work phase now.
+
+For later migration and origin-composition analysis, use Abigail's secure adult Dighton context, not an assumed birthplace or parental origin. Do not propagate PQ4Z-HLZ, Sarah Talbot, or the unidentified Kiles husband as parents, and do not assign a European-origin contribution through them.
+
+Canonical report: `docs/cases/abigail_kils_paull_identity_parentage_investigation.md`.
 
 ## Phebe 9VWG-63Y — banked outcome
 
@@ -191,8 +221,7 @@ Previously researched separately and excluded from the active broken-branch queu
 
 ## Current planned order
 
-1. **Abigail Kiles LCQS-31L**.
-2. **Elizabeth Harris L2F1-G68**.
+1. **Elizabeth Harris L2F1-G68**.
 
 Queue order is provisional and may change if an investigation exposes a higher-value direct-line break or peer review changes the underlying pedigree.
 
