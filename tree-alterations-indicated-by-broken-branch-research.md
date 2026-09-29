@@ -1,7 +1,7 @@
 # Tree Alterations Indicated by Broken-Branch Research
 
 **Analytical overlay — not an edited pedigree**  
-Last updated: 26 September 2026
+Last updated: 29 September 2026
 
 ## Purpose
 
@@ -452,6 +452,68 @@ Other reopening triggers:
 
 ---
 
+## 11. Elizabeth [maiden surname unknown] Rood/Rude — L2F1-G68
+
+### Inherited representation
+
+Elizabeth Harris, born about 1750 in Connecticut, with a supposed 1771 death despite a child born in 1772.
+
+### Research-indicated overlay
+
+Use the following source-qualified historical core:
+
+- L2F1-G68 is **strongly supported** as **Elizabeth [maiden surname unknown], wife of Stephen Rude/Rood Jr.**
+- Seven Connecticut child events from 1772 through 1793 consistently name Stephen and Elizabeth as parents.
+- The supposed **1771 death is contradicted**; 1771 was an unsourced marriage estimate mischaracterized as a death.
+- Death **8 February 1820, age 70, Killingly cemetery context** — **strongly supported**.
+- Birth about **1750** — **strongly supported as an approximate age-derived estimate**, contingent on the 1820 death attribution.
+- Exact birth date — **unknown**.
+- Birthplace — **unknown**.
+- Union with Stephen by November 1772 — **strongly supported**; exact ceremony/date/place unknown.
+- Maiden surname **Harris** — **weak / unsupported**.
+- Father — **unknown**.
+- Mother — **unknown**.
+- Second-wife / second-adult-Elizabeth hypothesis — **weak / not demonstrated**.
+
+### Harris contamination overlay
+
+Stephen Jr.'s mother **Mary Harris** was wrongly merged into the target Elizabeth in 2019 and later unmerged. No reviewed historical record calls the target Elizabeth Harris. Treat Harris as inherited/contaminated tree data unless a new independent historical source restores it.
+
+### Child-structure caution
+
+The current Anna and Anner profiles reuse the same 3 November 1772 birth. The duplicate-birth issue should be reconciled separately. Do not alter that child structure merely as part of Elizabeth's parentage closure.
+
+### Eventual tree alteration indicated
+
+At final reconciliation:
+
+- represent the ancestor as **Elizabeth [maiden surname unknown] Rood/Rude**;
+- retain Stephen Rude/Rood Jr. as strongly supported husband;
+- retain the supported 1772–1793 child sequence;
+- reject any 1771 death;
+- use about 1750 only as an approximate age-derived birth estimate;
+- do not assert Connecticut as birthplace without new evidence;
+- treat 8 February 1820 as strongly supported death with the cemetery-source caveat;
+- remove or qualify Harris as maiden surname;
+- leave both parents unknown;
+- do not create a second wife without new evidence;
+- review Anna/Anner separately;
+- do not assign a specific European-origin contribution through the unproved natal line.
+
+### Reopening triggers
+
+- Plainfield grantor/grantee index DGS 7833722 and land v. 6–7 DGS 8141230 for the 22 March 1783 deed;
+- Plainfield original vital DGS 7898615, v. 2 pp. 89 and 98;
+- relevant Plainfield church films if convenient access becomes available;
+- an original marriage/intention, probate, deed, Bible, church, or child-later-life record naming Elizabeth's maiden surname or natal family;
+- evidence disproving the 1820 wife-of-Stephen attribution or establishing a second Stephen–Elizabeth couple.
+
+### Canonical case
+
+`docs/cases/elizabeth_rood_identity_chronology_parentage_investigation.md`
+
+---
+
 ## Cases with no current structural overlay beyond “parents unresolved”
 
 ### Debby Phillips
@@ -468,7 +530,6 @@ Previously researched and excluded from the active broken-branch queue. No curre
 
 The following have not yet received a completed peer-reviewed broken-branch investigation and therefore have **no research overlay yet**:
 
-- Elizabeth Harris L2F1-G68
 
 Add entries only after ordinary-Chat peer review of each completed Work investigation.
 
