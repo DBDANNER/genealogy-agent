@@ -1,7 +1,8 @@
 # Ancestry Sweep Work Guide
 
-**Version 1 — calibration baseline**
-**Created:** 29 September 2026
+**Version 2 — post-Samuel-Talbot calibration**
+**Created:** 29 September 2026  
+**Updated:** 29 September 2026 after Samuel Talbot calibration
 
 ## Purpose
 
@@ -23,6 +24,117 @@ Each ancestor investigation will normally run in a fresh ChatGPT Work instance. 
 8. Human takeover for login, CAPTCHA, or other authentication interruptions is acceptable when needed. Do not request passwords.
 9. Keep the search bounded by the specific ancestor and the explicit unresolved propositions in the prompt.
 10. If a new Ancestry source materially changes a peer-reviewed conclusion, preserve the evidence and flag it for ordinary-Chat review rather than silently changing the canonical conclusion.
+
+## Calibration-derived Ancestry operating rules
+
+These rules were promoted from the Samuel Talbot 1738 calibration and should be included in the introductory portion of future fresh-instance Work prompts.
+
+### Source-layer classification is mandatory
+
+An image on Ancestry is not necessarily an original historical document.
+
+Before assigning evidentiary weight, explicitly classify the source layer as one of:
+
+- original instrument;
+- contemporary or near-contemporary record-book copy;
+- published abstract or transcript;
+- index/extract;
+- hint;
+- member tree or user-created derivative;
+- other derivative.
+
+State the classification in the report.
+
+Do not describe a scanned abstract, published transcript, or index page as an “original image” merely because Ancestry displays it in an image viewer.
+
+Do not count multiple presentations of the same underlying record as independent evidence.
+
+### Preferred search route for known collections
+
+When a collection is already known or strongly suspected, prefer:
+
+**Card Catalog → exact collection → collection-specific search**
+
+over broad/global Ancestry search.
+
+Allow dynamically rendered collection pages to finish loading before concluding that a search form or control is unavailable.
+
+Use global search when it is genuinely useful for discovery, not as the default path for every known collection.
+
+### Indexed metadata must be verified
+
+Ancestry record pages may combine, conflate, or summarize material from multiple image packets, similarly named people, or different dates.
+
+Before relying on indexed:
+
+- dates;
+- relatives;
+- spouses;
+- locations;
+- record types;
+- packet boundaries;
+
+compare them with the visible image and, when relevant, the image packet/table of contents.
+
+Treat indexed metadata as a finding aid until verified against the underlying source layer.
+
+### Image-viewer handling
+
+After page jumps, browser Forward, or viewer navigation, the canvas may briefly appear blank, stale, or show the prior page.
+
+Wait for rendering to settle and visually confirm the printed page/image before transcribing or citing it.
+
+Zoom and pan as needed.
+
+If a save/attach-to-tree panel opens, close it immediately without selecting a person or saving anything.
+
+Do not infer that a record is absent merely because the viewer’s index or information panel is disabled or says that no record is selected.
+
+### Metadata capture
+
+Ancestry may not expose a complete page-level citation in one place.
+
+Assemble exact provenance from all available surfaces, including when present:
+
+- collection title;
+- database/collection number;
+- record title;
+- visible volume/book;
+- printed page;
+- viewer position;
+- image filename/identifier;
+- pId/record ID;
+- observed URL;
+- repository/jurisdiction;
+- Ancestry-generated citation;
+- citation or reference printed on the scanned page.
+
+Distinguish Ancestry-generated metadata from information physically present on the historical or derivative page.
+
+### Read-only tree posture
+
+This phase is research-only unless a later prompt explicitly authorizes a change.
+
+Do not:
+
+- attach a record;
+- save a hint;
+- change a person;
+- add/remove relationships;
+- merge people;
+- alter facts;
+- create a person;
+- accept hints.
+
+If a save/attach control is accidentally opened, dismiss it and verify that no tree change occurred.
+
+### Problem-log use
+
+Continue logging both failures and successful workarounds.
+
+A generalizable lesson should include a concrete **prompt implication** so ordinary Chat can decide whether to promote it into the next guide version.
+
+Do not enlarge future prompts with local quirks unless they are likely to recur.
 
 ## Live telemetry
 
