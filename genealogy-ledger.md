@@ -1,7 +1,7 @@
 # Genealogy Research Ledger
 
 **Canonical working ledger for the Chat + Work genealogy project**  
-Last updated: 26 September 2026
+Last updated: 29 September 2026
 
 This file preserves the active ancestor-research queue independently of any single Chat or Work conversation. It should be updated after each completed Work investigation and ordinary-Chat peer review, and whenever a completed investigation exposes a new broken branch.
 
@@ -41,7 +41,8 @@ The governing principle is:
 - **Maria Elizabeth Loux KNV1-BCH** — two Work phases plus ordinary-Chat peer review complete. Adult identity established as Maria Elisabeth Loux/Laux, wife of Adam Huthmacher; Loux/Laux premarital surname strongly supported; inherited about-1741 Stone Arabia birth unsupported; parentage online-exhausted unresolved. Johann Henrich Laux + Anna Margaretha are the leading plausible natal household only. Canonical report: `docs/cases/maria_elizabeth_loux_huthmacher_identity_parentage_investigation.md`.
 - **Phebe 9VWG-63Y** — one Work investigation plus ordinary-Chat peer review complete. Adult wife/mother identity strongly supported at very high confidence as Phebe, wife of Jonathan Hamilton in Horton Township and mother of Sarah Hamilton born 5 May 1762. Maiden surname and parents remain unknown; inherited about-1734 New London birth and 26 July 1786 death are unsupported; Rathbone is a weak unsourced GEDCOM claim. Canonical report: `docs/cases/phebe_hamilton_9VWG-63Y_identity_parentage_investigation.md`.
 - **Abigail Kiles LCQS-31L** — two Work phases plus ordinary-Chat peer review complete. Adult identity and premarital surname established as Abigal Kils/Kiles, wife of James Paul/Paull. Inherited father PQ4Z-HLZ contradicted as represented; true father and mother remain unknown. Sarah Talbot Kiles Bartlett and her unidentified first Kiles husband remain plausible candidate parents only. Present accessible online pass exhausted. Canonical report: `docs/cases/abigail_kils_paull_identity_parentage_investigation.md`.
-- **Next planned Work case:** Elizabeth Harris L2F1-G68.
+- **Elizabeth Harris L2F1-G68** — two Work phases plus ordinary-Chat peer review complete. The apparent 1771 death was a ledger/provenance error derived from an unsourced marriage estimate, not a historical death. Adult identity is strongly supported as Elizabeth [maiden surname unknown], wife of Stephen Rude/Rood Jr., mother of the coherent 1772–1793 child sequence, probably dying 8 February 1820 age 70 in the Killingly cemetery context. Harris is weak/unsupported; father and mother remain unknown; finite online road exhausted. Canonical report: `docs/cases/elizabeth_rood_identity_chronology_parentage_investigation.md`.
+- **Broken-branch cycle status:** COMPLETE. All currently queued broken branches have been investigated and peer-reviewed. Next project stage: targeted Ancestry.com evidence sweep before downstream analytical work.
 - Mini-trees and FamilySearch remain unchanged during the broken-branch cycle. Research-indicated corrections are carried in `tree-alterations-indicated-by-broken-branch-research.md` for downstream analysis and later reconciliation.
 
 ## Original broken-branch roster
@@ -57,7 +58,58 @@ The governing principle is:
 | 7 | Phebe, surname unknown | 9VWG-63Y | **Completed — adult wife/mother identity strongly supported; maiden surname and parentage online-exhausted unresolved** | Strongly supported as wife of Jonathan Hamilton in Horton and mother of Sarah Hamilton born 5 May 1762. About-1734 New London birth and 26 July 1786 death are unsupported. Rathbone is weak/unsourced; parents remain unknown. |
 | 8 | Nathaniel Peck | M4DP-DRQ | **Completed — adult nuclear family substantially stabilized; parentage online-exhausted unresolved** | Original exact 1720 birth and 1759 death are unsupported. Original Suffolk guardianship packet proves Mary as mother of Benjamin and Nathaniel Peck, late Boston cordwainer, as his deceased father. 1742 Mary Marion marriage and broader Mary-headed sibling household are strongly supported. Lydia Chaffin marriage identity remains unresolved. No parents found after probate, church, same-name, and deed review. |
 | 9 | Abigail Kiles | LCQS-31L | **Completed — adult identity/surname established; inherited father contradicted; true parents online-exhausted unresolved** | Contemporary Dighton record names bride Abigal Kils in 1747. About 1727–28 birth strongly supported; birthplace unknown; death 20 Apr 1813 established. PQ4Z-HLZ is unsupported/contradicted as father. Sarah Talbot Kiles Bartlett + unidentified first Kiles husband remain plausible only; parents unknown. |
-| 10 | Elizabeth Harris | L2F1-G68 | **Queued — chronology conflict** | Original assertions: 1750–1771 Connecticut, with a child reportedly born 1772. Identity/chronology requires stabilization before parentage. |
+| 10 | Elizabeth Harris | L2F1-G68 | **Completed — adult identity strongly supported; false 1771 death resolved; maiden surname and parents online-exhausted unresolved** | Elizabeth [maiden surname unknown], wife of Stephen Rude/Rood Jr.; coherent 1772–1793 child sequence; probable death 8 Feb 1820 age 70 in Killingly cemetery context. Harris is weak/unsupported. Father and mother unknown. |
+
+## Elizabeth Harris L2F1-G68 — banked outcome
+
+**Status:** Completed peer review; adult identity strongly supported; false 1771 death resolved; maiden surname and parentage online-exhausted unresolved.
+
+The defensible historical core is:
+
+- L2F1-G68 is **strongly supported** as **Elizabeth [maiden surname unknown], wife of Stephen Rude/Rood Jr.**
+- Seven distinct Connecticut birth events from 1772 through 1793 consistently name Stephen Rude/Rood and mother Elizabeth.
+- The inherited **1771 death is contradicted**. No such death event appears in the reviewed profile/history; 1771 was an unsourced marriage estimate that had been mischaracterized in the project summary.
+- A photographed Hale cemetery abstract records **Elizabeth Rood died 8 February 1820, age 70**, in a Killingly cemetery context; a cemetery transcription identifies her as wife of Stephen. Ordinary-Chat peer review grades this death **strongly supported**.
+- Birth **about 1750** is strongly supported as an approximate age-derived estimate, contingent on the 1820 death attribution.
+- Exact birth date is unknown.
+- Birthplace is unknown; Connecticut is adult context, not proved natal geography.
+- Exact marriage ceremony/date/place is unknown; the Stephen–Elizabeth union is strongly supported by November 1772 and probably somewhat earlier.
+- **Harris as maiden surname is weak / unsupported.** No reviewed historical record calls the target Harris.
+- Stephen Jr.'s mother **Mary Harris** was wrongly merged into the target profile in 2019 and later unmerged, demonstrating a concrete contamination pathway.
+- Father remains **unknown**.
+- Mother remains **unknown**.
+- No second wife or second adult Elizabeth is demonstrated.
+- The Anna/Anner same-birth issue is a real later tree-reconciliation problem but was not altered in this case.
+
+Phase 2 pursued the finite marriage, 1783 Plainfield deed, probate, original town-register, church, and child-backward routes. No maiden-surname or natal-family bridge emerged.
+
+Specific reopening items:
+- Plainfield grantor/grantee index DGS 7833722 and land v. 6–7 DGS 8141230 for the 22 March 1783 Stephen Rude deed;
+- Plainfield original vital volume DGS 7898615, v. 2 pp. 89 and 98;
+- relevant Plainfield church films if convenient access becomes available;
+- any original marriage/intention, probate, deed, family Bible, church, or child-later-life record naming Elizabeth's premarital surname or parents.
+
+For downstream migration and origin-composition analysis, use **Elizabeth [maiden surname unknown] Rood/Rude**. Do not propagate Harris as a proved surname, do not assign parents, and do not assign a specific country-of-origin contribution through an unproved natal line.
+
+Canonical report: `docs/cases/elizabeth_rood_identity_chronology_parentage_investigation.md`.
+
+## Elizabeth Harris L2F1-G68 — banked outcome
+
+**Status:** Completed peer review; adult identity strongly supported; false 1771 death resolved; maiden surname and parentage online-exhausted unresolved.
+
+- Strongly supported as **Elizabeth [maiden surname unknown], wife of Stephen Rude/Rood Jr.**
+- Seven Connecticut child events from 1772–1793 consistently name Stephen and Elizabeth.
+- The supposed **1771 death is contradicted**; it was an unsourced marriage estimate mischaracterized as a death.
+- Death **8 February 1820, age 70, Killingly cemetery context** is strongly supported.
+- Birth about **1750** is strongly supported as an approximate age-derived estimate; exact birth date and birthplace remain unknown.
+- **Harris** as maiden surname is weak/unsupported. Stephen Jr.'s mother Mary Harris was wrongly merged into the target in 2019 and later unmerged, demonstrating a concrete contamination pathway.
+- Father and mother remain **unknown**.
+- No second wife or second adult Elizabeth is demonstrated.
+- Phase 2 tested marriage, 1783 Plainfield deed, probate, original town-register, church, and child-backward routes without finding a maiden-surname or natal-family bridge.
+- Specific reopening items include Plainfield DGS 7833722 / 8141230 for the 22 March 1783 deed and DGS 7898615 v.2 pp.89/98, plus any future marriage, probate, deed, Bible, church, or child-later-life record naming Elizabeth's natal family.
+- For downstream analysis use **Elizabeth [maiden surname unknown] Rood/Rude**; do not propagate Harris or assign a country-of-origin contribution through an unproved natal line.
+
+Canonical report: `docs/cases/elizabeth_rood_identity_chronology_parentage_investigation.md`.
 
 ## Abigail Kiles LCQS-31L — banked outcome
 
@@ -221,9 +273,9 @@ Previously researched separately and excluded from the active broken-branch queu
 
 ## Current planned order
 
-1. **Elizabeth Harris L2F1-G68**.
+**Broken-branch queue complete.**
 
-Queue order is provisional and may change if an investigation exposes a higher-value direct-line break or peer review changes the underlying pedigree.
+Next project stage: targeted Ancestry.com evidence sweep for genuinely new source material, preservation of useful Ancestry DNA conclusions/photographs/unique material, then the coverage/place-authority and downstream analysis plan in `docs/phase2_analysis_plan_260925_v4.md`.
 
 ## Update protocol
 
